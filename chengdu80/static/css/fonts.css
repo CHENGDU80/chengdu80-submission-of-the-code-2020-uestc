@@ -1,0 +1,17 @@
+@font-face {
+    font-family: PFR;
+    src:url('../fonts/PingFang Regular.ttf');
+}
+.pfr {
+    font-family: PFR;
+}
+div {
+    font-family: PFR;
+}
+
+h1{
+    font-family: PFR;
+}
+h5{
+    font-family: PFR;
+}

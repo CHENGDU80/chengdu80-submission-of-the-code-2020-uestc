@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+
+{% block block_header %}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename="css/bootstrap.min.css") }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename="css/fontawesome-all.min.css") }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename="css/themify-icons.css") }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename="css/style.css") }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename="css/fonts.css") }}">
+    <script src="{{ url_for('static', filename="js/vendor/modernizr-3.5.0.min.js") }}"></script>
+    <script src="{{ url_for('static', filename="js/vendor/jquery-1.12.4.min.js") }}"></script>
+    <script src="{{ url_for('static', filename="js/popper.min.js") }}"></script>
+    <script src="{{ url_for('static', filename="js/bootstrap.min.js") }}"></script>
+    <script src="{{ url_for('static', filename="js/echarts.min.js") }}"></script>
+
+{% endblock %}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% block block_header %}
+    {% endblock %}
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--<img src="/img/bg.png" alt="">-->
+<div class="slider-area">
+    <div class="single-slider slider-height d-flex align-items-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8 col-lg-9">
+
+<!-- icon and title-->
+                    <div class="icon_title">
+                        <img src="{{ url_for('static', filename="img/icon_uestc.png") }}">
+                        <h1 class="mt-5" >STOCK PRICE FORECASTING SYSTEM</h1>
+                    </div>
+                    <!-- form -->
+                    <div class="search-box" >
+                        <div class="input-form">
+                            <input id="ticker" type="text" placeholder="Search for a stock" class="pfr">
+                            <!-- search icon-->
+                            <div class="search-form" id="sub_button">
+                                <button><i class="ti-search"></i></button>
+                            </div>
+                            <!-- search icon-->
+                            <div class="world-form">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                        </div>
+                    </div>
+<!--                    搜索请求-->
+                    <script>
+                        $('#sub_button').click(function () {
+                            var ticker =$("#ticker").val();
+                            // alert('/search/'+tickerr);
+                            console.log('ticker:', ticker)
+                            window.location.href='/search/'+ticker;
+                            {#window.open('/search/' + ticker, target='_blank')#}
+                        })
+                    </script>
+                    <!-- Company List -->
+                    <div class="single-domain pt-30 pb-30">
+                        <ul>
+                            <span>Recommend:</span>
+                            <li><span>GOOG</span> </li>
+                            <li><span>ORCL</span> </li>
+                            <li><span>AMD</span> </li>
+                            <li><span>MSFT</span> </li>
+                            <li><span>NVDA</span> </li>
+                        </ul>
+                    </div>
+<!--                    跳转请求-->
+                    <script>
+                        $('span').click(function () {
+                            var ticker=$(this).text();
+                            // alert('/search/'+ticker);
+                            window.location.href='/search/'+ticker;
+                        })
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

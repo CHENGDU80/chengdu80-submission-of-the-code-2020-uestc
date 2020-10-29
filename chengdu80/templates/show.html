@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    {% block block_header %}
+    {% endblock %}
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/searchbar.css">
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/echarts.min.js"></script>
+
+</head>
+<body>
+
+<!--navbar-->
+<input type="hidden" id="t" value={{ ticker }}>
+<input type="hidden" id="company_name" value={{ company.name }}>
+<input type="hidden" id="industry" value={{ company.industry }}>
+<input type="hidden" id="category" value={{ company.category }}>
+
+<nav class="navbar navbar-expand-lg navbar-light"
+     style="background-color: #2e6da4">
+    <div class="container">
+        <img class="navbar-brand p-0" id="to_index"
+             src="{{ url_for('static', filename="img/icon_uestc.png") }}"
+             style="width: 40px;height: 40px">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <div class="search-box my-2 my-lg-0">
+                <div class="input-form">
+                    <input id="ticker" type="text"
+                           placeholder="Search for a stock" class="pfr">
+                    <!-- search icon-->
+                    <div class="search-form">
+                        <button id="sub_button"><i class="ti-search"></i>
+                        </button>
+                    </div>
+                    <!-- search icon-->
+                    <div class="world-form">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                </div>
+            </div>
+            <!--            搜索请求-->
+            <script>
+                $('#sub_button').click(function () {
+                    var ticker = $("#ticker").val();
+                    //alert('/search/'+ticker);
+                    window.location.href = '/search/' + ticker;
+                })
+            </script>
+
+        </div>
+    </div>
+</nav>
+
+<script>
+    $('#to_index').click(function () {
+        window.location.href = '/'
+    })
+</script>
+<!--charts-->
+<div class="container">
+    <div class="row mt-3">
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="card">
+                <h5 class="card-header">Company</h5>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush"
+                        style="height: 400px">
+                        <li class="list-group-item">Company
+                            : {{ company.name }}</li>
+                        <li class="list-group-item">Ticker
+                            : {{ company.ticker }}</li>
+                        <li class="list-group-item">Industry
+                            : {{ company.industry }}</li>
+                        <li class="list-group-item">Category
+                            : {{ company.category }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-9 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="card">
+                <h5 class="card-header">K Line Chart</h5>
+                <div class="card-body">
+                    <div id="k_line" style="height: 400px"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(
+            function () {
+                var kline = echarts.init(document.getElementById('k_line'), 'white', {renderer: 'canvas'});
+                var t = $("#t").val()
+                $.ajax({
+                    type: "GET",
+                    url: "/kline/" + t,
+                    dataType: 'json',
+                    success: function (result) {
+                        kline.setOption(result);
+                    }
+                });
+            }
+        )
+    </script>
+    <!--    knowledge Graph-->
+    <div class="row mt-3">
+        <div class="col-xl-12 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="card">
+                <h5 class="card-header">Financial Knowledge Graph</h5>
+                <div class="card-body">
+                    <div id="kg" style="height:400px"></div>
+                    <script type="text/javascript">
+                        var t = $("#t").val()
+                        var company_name = $('#company_name').val()
+                        var industry = $('#industry').val()
+                        var category = $("#category").val()
+                        var kg = echarts.init(document.getElementById('kg'));
+                        var categories = [];
+                        categories[0] = {name: 'Root'}
+                        // categories[1] = {name: 'Operating Status'}
+                        // categories[2] = {name: 'Social Factors'}
+                        // categories[3] = {name: 'Political Factors'}
+                        // categories[4] = {name: 'Transaction Situation'}
+                        for (var i = 1; i < 8; i++) {
+                            categories[i] = {
+                                name: 'Cat ' + i
+                            };
+                        }
+                        option = {
+                            // 图的标题
+                            title: {
+                                text: ''
+                            },
+                            // 提示框的配置
+                            tooltip: {
+                                formatter: function (x) {
+                                    return x.data.des;
+                                }
+                            },
+                            // 工具箱
+                            toolbox: {
+                                // 显示工具箱
+                                show: true,
+                                feature: {
+                                    mark: {
+                                        show: true
+                                    },
+                                    // 还原
+                                    restore: {
+                                        show: true
+                                    },
+                                    // 保存为图片
+                                    saveAsImage: {
+                                        show: true
+                                    }
+                                }
+                            },
+                            legend: [{
+                                // selectedMode: 'single',
+                                data: categories.map(function (a) {
+                                    return a.name;
+                                })
+                            }],
+                            series: [{
+                                type: 'graph', // 类型:关系图
+                                layout: 'force', //图的布局，类型为力导图
+                                symbolSize: 40, // 调整节点的大小
+                                roam: true, // 是否开启鼠标缩放和平移漫游。默认不开启。如果只想要开启缩放或者平移,可以设置成 'scale' 或者 'move'。设置成 true 为都开启
+                                edgeSymbol: ['circle', 'arrow'],
+                                edgeSymbolSize: [2, 10],
+                                edgeLabel: {
+                                    normal: {
+                                        textStyle: {
+                                            fontSize: 20
+                                        }
+                                    }
+                                },
+                                force: {
+                                    repulsion: 500,
+                                    edgeLength: [10, 50]
+                                },
+                                draggable: true,
+                                lineStyle: {
+                                    normal: {
+                                        width: 2,
+                                        color: '#4b565b',
+                                    }
+                                },
+                                edgeLabel: {
+                                    normal: {
+                                        show: true,
+                                        formatter: function (x) {
+                                            return x.data.name;
+                                        }
+                                    }
+                                },
+                                label: {
+                                    normal: {
+                                        show: true,
+                                        textStyle: {}
+                                    }
+                                },
+
+                                // 数据
+                                data: [{
+                                    name: company_name,
+                                    des: company_name,
+                                    symbolSize: 80,
+                                    category: 0,
+                                }, {
+                                    name: t,
+                                    des: t,
+                                    symbolSize: 70,
+                                    category: 5,
+                                }, {
+                                    name: category,
+                                    des: category,
+                                    symbolSize: 70,
+                                    category: 6,
+                                }, {
+                                    name: industry,
+                                    des: industry,
+                                    symbolSize: 70,
+                                    category: 7,
+                                }, {
+                                    name: 'Operating Status',
+                                    des: 'Operating Status',
+                                    symbolSize: 70,
+                                    category: 1,
+                                }, {
+                                    name: 'Social Factors',
+                                    des: 'Social Factors',
+                                    symbolSize: 70,
+                                    category: 2,
+                                }, {
+                                    name: 'Political Factors',
+                                    des: 'Political Factors',
+                                    symbolSize: 70,
+                                    category: 3,
+                                }, {
+                                    name: 'Transaction Situation',
+                                    des: 'Transaction Situation',
+                                    symbolSize: 70,
+                                    category: 4,
+                                }, {
+                                    name: 'P/E',
+                                    des: 'P/E',
+                                    symbolSize: 50,
+                                    category: 1,
+                                }, {
+                                    name: 'Volatility',
+                                    des: 'Volatility',
+                                    symbolSize: 50,
+                                    category: 1,
+                                }, {
+                                    name: 'PCF',
+                                    des: 'PCF',
+                                    symbolSize: 50,
+                                    category: 1,
+                                }, {
+                                    name: 'M&A',
+                                    des: 'M&A',
+                                    symbolSize: 50,
+                                    category: 2,
+                                }, {
+                                    name: 'Bankruptcy',
+                                    des: 'Bankruptcy',
+                                    symbolSize: 50,
+                                    category: 2,
+                                }, {
+                                    name: 'Shareholding Change',
+                                    des: 'Shareholding Change',
+                                    symbolSize: 50,
+                                    category: 2,
+                                }, {
+                                    name: 'Violation of Laws and Regulations',
+                                    des: 'Violation of Laws and Regulations',
+                                    symbolSize: 50,
+                                    category: 2,
+                                }, {
+                                    name: 'Rating',
+                                    des: 'Rating',
+                                    symbolSize: 50,
+                                    category: 2,
+                                }, {
+                                    name: 'Financial Crisis',
+                                    des: 'Financial Crisis',
+                                    symbolSize: 50,
+                                    category: 3,
+                                }, {
+                                    name: 'War',
+                                    des: 'War',
+                                    symbolSize: 50,
+                                    category: 3,
+                                }, {
+                                    name: 'Election',
+                                    des: 'Election',
+                                    symbolSize: 50,
+                                    category: 3,
+                                }, {
+                                    name: 'Political Speech',
+                                    des: 'Political Speech',
+                                    symbolSize: 50,
+                                    category: 3,
+                                }, {
+                                    name: 'Policy',
+                                    des: 'Policy',
+                                    symbolSize: 50,
+                                    category: 3,
+                                }, {
+                                    name: 'Trading Volume',
+                                    des: 'Trading Volume',
+                                    symbolSize: 50,
+                                    category: 4,
+                                }, {
+                                    name: 'Opening Price',
+                                    des: 'Opening Price',
+                                    symbolSize: 50,
+                                    category: 4,
+                                }, {
+                                    name: 'Closing Price',
+                                    des: 'Closing Price',
+                                    symbolSize: 50,
+                                    category: 4,
+                                }, {
+                                    name: 'Highest Price',
+                                    des: 'Highest Price',
+                                    symbolSize: 50,
+                                    category: 4,
+                                }, {
+                                    name: 'Lowest Price',
+                                    des: 'Lowest Price',
+                                    symbolSize: 50,
+                                    category: 4,
+                                }],
+                                links: [{
+                                    source: 'Transaction Situation',
+                                    target: 'Opening Price',
+                                    name: 'include',
+                                }, {
+                                    source: 'Transaction Situation',
+                                    target: 'Closing Price',
+                                    name: 'include',
+                                }, {
+                                    source: 'Transaction Situation',
+                                    target: 'Highest Price',
+                                    name: 'include',
+                                }, {
+                                    source: 'Transaction Situation',
+                                    target: 'Lowest Price',
+                                    name: 'include',
+                                }, {
+                                    source: 'Transaction Situation',
+                                    target: 'Trading Volume',
+                                    name: 'include',
+                                }, {
+                                    source: 'Political Factors',
+                                    target: 'War',
+                                    name: 'include',
+                                }, {
+                                    source: 'Political Factors',
+                                    target: 'Election',
+                                    name: 'include',
+                                }, {
+                                    source: 'Political Factors',
+                                    target: 'Political Speech',
+                                    name: 'include',
+                                }, {
+                                    source: 'Political Factors',
+                                    target: 'Policy',
+                                    name: 'include',
+                                }, {
+                                    source: 'Political Factors',
+                                    target: 'Financial Crisis',
+                                    name: 'include',
+                                }, {
+                                    source: 'Social Factors',
+                                    target: 'Bankruptcy',
+                                    name: 'include',
+                                }, {
+                                    source: 'Social Factors',
+                                    target: 'Shareholding Change',
+                                    name: 'include',
+                                }, {
+                                    source: 'Social Factors',
+                                    target: 'Violation of Laws and Regulations',
+                                    name: 'include',
+                                }, {
+                                    source: 'Social Factors',
+                                    target: 'Rating',
+                                    name: 'include',
+                                }, {
+                                    source: 'Social Factors',
+                                    target: 'M&A',
+                                    name: 'include',
+                                }, {
+                                    source: 'Operating Status',
+                                    target: 'P/E',
+                                    name: 'include',
+                                }, {
+                                    source: 'Operating Status',
+                                    target: 'Volatility',
+                                    name: 'include',
+                                }, {
+                                    source: 'Operating Status',
+                                    target: 'PCF',
+                                    name: 'include',
+                                }, {
+                                    source: company_name,
+                                    target: 'Operating Status',
+                                    name: 'include',
+                                }, {
+                                    source: company_name,
+                                    target: 'Transaction Situation',
+                                    name: 'include',
+                                }, {
+                                    source: company_name,
+                                    target: 'Social Factors',
+                                    name: 'include',
+                                }, {
+                                    source: company_name,
+                                    target: t,
+                                    name: 'issue',
+                                }, {
+                                    source: company_name,
+                                    target: industry,
+                                    name: 'engage',
+                                }, {
+                                    source: industry,
+                                    target: category,
+                                    name: 'belong to',
+                                }, {
+                                    source: company_name,
+                                    target: 'Political Factors',
+                                    name: 'include',
+                                }],
+                                categories: categories,
+                            }]
+                        };
+                        kg.setOption(option);
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    date input-->
+    <div class="row justify-content-md-center mt-3">
+        <div class="form-inline">
+            <div class="form-group mx-sm-3 mb-2">
+                <input type="date" class="form-control" id="start_date">
+            </div>
+            <button class="btn btn-primary mb-2" id="date_submit">PREDICT
+            </button>
+        </div>
+    </div>
+
+    <script>
+        $("#date_submit").click(function () {
+            var date = $("#start_date").val();
+            var prediction = echarts.init(document.getElementById('prediction'), 'white', {renderer: 'canvas'});
+
+            // alert(date)
+            $.ajax({
+                type: "GET",
+                url: "/predict/" + t + "/" + date,
+                dataType: 'json',
+                success: function (result) {
+                    prediction.setOption(result);
+                }
+            });
+            $.ajax({
+                type: "GET",
+                url: "/news/" + t + "/" + date,
+                dataType: 'json',
+                success: function (result) {
+                    data = result.data
+                    var poscounter = 0;
+                    $("#table_data").empty();
+                    for (var i = 0; i < data.length; i++) {
+                        var tendency = 'unknown';
+                        if (data[i].pos > data[i].neg) {
+                            tendency = 'pos';
+                            poscounter++;
+                        } else
+                            tendency = 'neg';
+                        var $trTemp = $("<tr></tr>");
+                        $trTemp.append("<td>" + data[i].date + "</td>");
+                        $trTemp.append("<td>" + data[i].title + "</td>");
+                        $trTemp.append("<td>" + tendency + "</td>");
+                        $trTemp.appendTo("#table_data");
+                    }
+                    var piecharts = echarts.init(document.getElementById('pie'));
+                    piecharts.setOption({
+                        series: [
+                            {
+                                name: 'news_amount',
+                                type: 'pie',
+                                radius: '55%',
+                                data: [
+                                    {value: poscounter, name: 'pos'},
+                                    {
+                                        value: data.length - poscounter,
+                                        name: 'neg'
+                                    },
+                                ]
+                            }
+                        ]
+                    })
+                }
+            });
+
+        })
+    </script>
+    <div class="row mt-3">
+        <div class="col-xl-12 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="card">
+                <h5 class="card-header">Prediction</h5>
+                <div class="card-body">
+                    <div id="prediction" style="height: 350px">this is a charts</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--    News-->
+    <div class="row mt-3">
+        <div class="col-xl-8 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="card">
+                <h5 class="card-header">NEWS</h5>
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">date</th>
+                            <th scope="col">title</th>
+                            <th scope="col">tendency</th>
+                        </tr>
+                        </thead>
+                        <tbody id="table_data">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="card">
+                <h5 class="card-header">emotion tendency</h5>
+                <div class="card-body">
+                    <div id="pie" style="height: 200px"> unpredicted</div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <script>
+            $('#myModal').on('show.bs.modal', function (e) {
+                $('#contend').html(e.relatedTarget.attr('index'))
+            })
+        </script>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+             aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal
+                            title</h5>
+                        <button type="button" class="close" data-dismiss="modal"
+                                aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="contend">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

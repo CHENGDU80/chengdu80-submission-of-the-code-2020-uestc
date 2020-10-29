@@ -1,0 +1,75 @@
+.world-form {
+    position: absolute;
+    left: 4px;
+    top: 8px
+}
+.world-form i {
+    color: #c4c4c4;
+    font-size: 26px;
+    display: block;
+    line-height: 22px
+}
+
+.search-form {
+    position: absolute;
+    right: 4px;
+    top: 5px
+}
+.search-form button {
+    background: #FFBF81;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    display: block;
+    cursor: pointer;
+    line-height: 22px;
+    border: 0
+}
+
+.search-form i {
+    position: relative;
+    left: 2px;
+    top: 3px
+}
+.input-form input::placeholder {
+    color: #616875
+}
+
+.input-form input::placeholder {
+    font-size: 13px
+}
+/*@media (max-width: 575px) {*/
+/*    .slider-area form.search-box .input-form input::placeholder {*/
+/*        font-size: 13px*/
+/*    }*/
+/*}*/
+
+/*@media only screen and (min-width: 576px) and (max-width: 767px) {*/
+    .input-form input {
+        padding: 9px 76px 9px 36px
+    }
+/*}*/
+
+/*@media (max-width: 575px) {*/
+    .slider-area form.search-box .input-form input {
+        margin-bottom: 20px
+    }
+/*}*/
+
+.input-form input {
+    height: 35px;
+    width: 100%;
+    color: #777777;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 9px 33px 9px 76px;
+    border: none;
+    border-radius: 15px
+}
+
+.input-form {
+    position: relative
+}
