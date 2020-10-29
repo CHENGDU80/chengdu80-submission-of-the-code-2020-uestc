@@ -6,16 +6,6 @@
 
     {% block block_header %}
     {% endblock %}
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/searchbar.css">
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/echarts.min.js"></script>
 
 </head>
 <body>
@@ -460,7 +450,7 @@
     <div class="row justify-content-md-center mt-3">
         <div class="form-inline">
             <div class="form-group mx-sm-3 mb-2">
-                <input type="date" class="form-control" id="start_date">
+                <input type="date" class="form-control" id="start_date" min="2012-01-01" max="2012-12-31">
             </div>
             <button class="btn btn-primary mb-2" id="date_submit">PREDICT
             </button>
@@ -468,6 +458,8 @@
     </div>
 
     <script>
+        var news_details = null;
+
         $("#date_submit").click(function () {
             var date = $("#start_date").val();
             var prediction = echarts.init(document.getElementById('prediction'), 'white', {renderer: 'canvas'});
@@ -487,21 +479,31 @@
                 dataType: 'json',
                 success: function (result) {
                     data = result.data
-                    var poscounter = 0;
+                    news_details = result.news
+                    //var pos_bias=0;
                     $("#table_data").empty();
+                    var poscounter=0;
                     for (var i = 0; i < data.length; i++) {
                         var tendency = 'unknown';
+                        //pos_bias+=data[i].pos
                         if (data[i].pos > data[i].neg) {
                             tendency = 'pos';
                             poscounter++;
                         } else
                             tendency = 'neg';
-                        var $trTemp = $("<tr></tr>");
-                        $trTemp.append("<td>" + data[i].date + "</td>");
-                        $trTemp.append("<td>" + data[i].title + "</td>");
-                        $trTemp.append("<td>" + tendency + "</td>");
-                        $trTemp.appendTo("#table_data");
+
+                        var temp = "<tr class=\"modal_click_bar\" data-toggle=\"modal\" data-target=\"#myModal\" data-index=" + i + "><td>" + data[i].date + "</td><td>" + data[i].title + "</td><td>" + tendency + "</td></tr>";
+
+                        // var $trTemp = $("<tr></tr>");
+                        // $trTemp.append("<td>" + data[i].date + "</td>");
+                        // $trTemp.append("<td>" + data[i].title + "</td>");
+                        // $trTemp.append("<td>" + tendency + "</td>");
+                        // $trTemp.appendTo("#table_data");
+                        $("#table_data").append(temp)
                     }
+                    //alert(pos_bias)
+                    //pos_bias= pos_bias/ data.length;
+
                     var piecharts = echarts.init(document.getElementById('pie'));
                     piecharts.setOption({
                         series: [
@@ -512,7 +514,7 @@
                                 data: [
                                     {value: poscounter, name: 'pos'},
                                     {
-                                        value: data.length - poscounter,
+                                        value: data.length-poscounter,
                                         name: 'neg'
                                     },
                                 ]
@@ -529,7 +531,9 @@
             <div class="card">
                 <h5 class="card-header">Prediction</h5>
                 <div class="card-body">
-                    <div id="prediction" style="height: 350px">this is a charts</div>
+                    <div id="prediction" style="height: 350px">
+                        Choose a date for prediction and the result will be shown in this chart.
+                    </div>
 
                 </div>
             </div>
@@ -561,35 +565,33 @@
             <div class="card">
                 <h5 class="card-header">emotion tendency</h5>
                 <div class="card-body">
-                    <div id="pie" style="height: 200px"> unpredicted</div>
+                    <div id="pie" style="height: 200px"></div>
                 </div>
             </div>
         </div>
+
+    </div>
+    <div class="row">
         <!-- Modal -->
-        <script>
-            $('#myModal').on('show.bs.modal', function (e) {
-                $('#contend').html(e.relatedTarget.attr('index'))
-            })
-        </script>
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-             aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal
-                            title</h5>
-                        <button type="button" class="close" data-dismiss="modal"
-                                aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p id="contend">
-                    </div>
+    <div class="modal fade " id="myModal" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p id="contend" style="white-space: pre-line; cursor: pointer">
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        $('#myModal').on('show.bs.modal', function (e) {
+            var news_index = $(e.relatedTarget).data('index');
+            $('#contend').text(news_details[news_index])
+            console.log(news_details[news_index])
+        });
+    </script>
+    </div>
+
 </div>
 
 </body>

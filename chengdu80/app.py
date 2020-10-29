@@ -15,7 +15,6 @@ import utils
 
 app = Flask(__name__)
 app.instance_path = os.getcwd()
-app.debug = True
 
 
 # config file of flask
@@ -31,6 +30,7 @@ company_info_file = 'company_info.json'
 company_info = {}
 
 data_dir = r'/home/ubuntu/dataset'
+news_dir = r'/home/ubuntu/filtered_news'
 ckpt_file = 'saved/lstm.ckpt'
 look_back = 7
 chengdu80_model = None
@@ -84,7 +84,6 @@ def setup(app):
         ticker_to_transaction_index[ticker] = np.array(idx)
 
     # 模型建立
-
     model = tf.keras.models.Sequential([
         tf.keras.layers.LSTM(input_shape=(None, 6), units=50,
                              return_sequences=True),
@@ -99,7 +98,7 @@ def setup(app):
     model.compile(loss='mean_squared_error', optimizer='Adam')
     model.load_weights(
         filepath=os.path.join(app.instance_path, ckpt_file)).expect_partial()
-    #model.summary()
+    model.summary()
     global chengdu80_model
     chengdu80_model = model
     print('done with setup')
@@ -176,52 +175,23 @@ def get_transaction_data_between(data, from_date, to_date):
 
     return dates, ret_data
 
-def get_prediction(data,predict,start_date):
-    date, list1, list2 = data[:, 0], data[:, 3:5], data[:,5:7]
-    list = np.concatenate([list2, list1], axis=1)
-    prediction=np.array([None]*len(list))
-    prediction=np.append(prediction,predict)
-    date=np.append(date,start_date)
-    kline = (
-        Kline()
+def get_prediction(data, predict, pre_date):
+    date, prc = data[:, 0], data[:, 6]
+    prediction = np.array([None] * (len(prc) - 1))
+    date=np.append(date,pre_date)
+    end_data=prc[(len(prc) - 1)]
+    prediction=np.append(prediction,end_data)
+    prediction = np.append(prediction, predict)
+    color = 'red' if end_data<predict else 'green'
+    line = (
+        Line()
             .add_xaxis(date.tolist())
-            .add_yaxis("kline", list.tolist())
-            .set_global_opts(
-
-            xaxis_opts=opts.AxisOpts(is_scale=True,type_='category'),
-            yaxis_opts=opts.AxisOpts(
-                is_scale=True,
-                splitarea_opts=opts.SplitAreaOpts(
-                    is_show=True, areastyle_opts=opts.AreaStyleOpts(opacity=1)
-                ),
-            ),
-            title_opts=opts.TitleOpts(title="Kline"),
-        )
+            .add_yaxis("true value", prc.tolist(),linestyle_opts=opts.LineStyleOpts(color='blue',width=4),symbol='x')
+            .add_yaxis("prediction", prediction.tolist(),linestyle_opts=opts.LineStyleOpts(color=color,width=4, type_="dashed"))
+            .set_global_opts(title_opts=opts.TitleOpts(title=""),
+                             yaxis_opts=opts.AxisOpts(is_scale=True))
     )
-    line=(
-        Line().add_xaxis(xaxis_data=date)
-        .add_yaxis(
-            series_name="prediction",
-            y_axis=prediction,
-        )
-        .set_global_opts(
-            xaxis_opts=opts.AxisOpts(
-                type_="category",
-                grid_index=1,
-                axislabel_opts=opts.LabelOpts(is_show=False),
-            ),
-            yaxis_opts=opts.AxisOpts(
-                grid_index=1,
-                split_number=3,
-                axisline_opts=opts.AxisLineOpts(is_on_zero=False),
-                axistick_opts=opts.AxisTickOpts(is_show=False),
-                splitline_opts=opts.SplitLineOpts(is_show=False),
-                axislabel_opts=opts.LabelOpts(is_show=True),
-            ),
-        )
-    )
-    overlap=kline.overlap(line)
-    return overlap
+    return line
 
 @app.route('/predict/<ticker>/<pred_date>')
 def get_prediction_after_date_and_actual_data(ticker, pred_date):
@@ -251,20 +221,14 @@ def get_prediction_after_date_and_actual_data(ticker, pred_date):
     y_scaler = MinMaxScaler(feature_range=(0, 1))
     y_scaler.fit(np.array([predy]).reshape([7,1]))
     y = chengdu80_model.predict(predX)
+    # 反归一化之后的预测数据
     y = y_scaler.inverse_transform(y)[0]
+    y=((int)(y*1000))/1000
 
-    format_str = '%Y-%m-%d'
-    end = datetime.datetime.strptime(pred_date, format_str)
-    start = end - datetime.timedelta(days=7)    # It's magic!
-    #
-    # dates, data = get_transaction_data_between(
-    #     data,
-    #     start.strftime(format_str),
-    #     end.strftime(format_str))
+
     numpy_array = data[i-min(i, look_back) :i]
-    overlap=get_prediction(numpy_array,y,pred_date)
-    return overlap.dump_options_with_quotes()
-
+    line=get_prediction(numpy_array,y,pred_date)
+    return line.dump_options_with_quotes()
 
 
 @app.route('/search/<ticker>')
@@ -288,7 +252,14 @@ def get_news(ticker, a_date):
                    'between date(?, "start of day", "-30 days")'
                    'and ?', (ticker, a_date, a_date))
     data = []
+    news_data = []
     for row in result:
+        title = row[1]
+        path = os.path.join(news_dir, title)
+        if os.path.exists(path):
+            with open(path, 'r', encoding='utf8') as f:
+                news = f.read()
+                news_data.append(news)
         data.append({
             'title': row[1],
             'date': row[0],
@@ -297,7 +268,7 @@ def get_news(ticker, a_date):
         })
     db.close()
 
-    return {'data': data}
+    return {'data': data, 'news': news_data}
 
 @app.route('/')
 def hello_world():

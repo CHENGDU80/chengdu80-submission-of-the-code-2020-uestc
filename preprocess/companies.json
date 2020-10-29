@@ -1,0 +1,3537 @@
+[
+  {
+    "name": "3M Company",
+    "ticker": "MMM",
+    "industry": "Industrial Conglomerates",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "3M"
+  },
+  {
+    "name": "A. O. Smith Corporation",
+    "ticker": "AOS",
+    "industry": "Building Products",
+    "category": "Building materials and real estate industry",
+    "entity_name": "Smith Corporation"
+  },
+  {
+    "name": "Abbott Laboratories",
+    "ticker": "ABT",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "Abbott"
+  },
+  {
+    "name": "AbbVie Inc.",
+    "ticker": "ABBV",
+    "industry": "Biotechnology",
+    "category": "Healthcare and health industry",
+    "entity_name": "AbbVie"
+  },
+  {
+    "name": "Abiomed, Inc.",
+    "ticker": "ABMD",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "Abiomed"
+  },
+  {
+    "name": "Accenture plc",
+    "ticker": "ACN",
+    "industry": "IT Consulting and Other Services",
+    "category": "Media and information services",
+    "entity_name": "Accenture plc"
+  },
+  {
+    "name": "Activision Blizzard, Inc.",
+    "ticker": "ATVI",
+    "industry": "Interactive Home Entertainment",
+    "category": "Media and information services",
+    "entity_name": "Activision Blizzard"
+  },
+  {
+    "name": "Adobe Inc.",
+    "ticker": "ADBE",
+    "industry": "Application Software",
+    "category": "Media and information services",
+    "entity_name": "Adobe"
+  },
+  {
+    "name": "Advance Auto Parts, Inc.",
+    "ticker": "AAP",
+    "industry": "Automotive Retail",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Advance Auto Parts"
+  },
+  {
+    "name": "Advanced Micro Devices, Inc.",
+    "ticker": "AMD",
+    "industry": "Semiconductors",
+    "category": "Media and information services",
+    "entity_name": "AMD"
+  },
+  {
+    "name": "Aflac Incorporated",
+    "ticker": "AFL",
+    "industry": "Life and Health Insurance",
+    "category": "Finance",
+    "entity_name": "Aflac"
+  },
+  {
+    "name": "Agilent Technologies, Inc.",
+    "ticker": "A",
+    "industry": "Life Sciences Tools and Services",
+    "category": "Healthcare and health industry",
+    "entity_name": "Agilent"
+  },
+  {
+    "name": "Air Products and Chemicals, Inc.",
+    "ticker": "APD",
+    "industry": "Industrial Gases",
+    "category": "Energy industry",
+    "entity_name": "Air Products and Chemicals"
+  },
+  {
+    "name": "Akamai Technologies, Inc.",
+    "ticker": "AKAM",
+    "industry": "Internet Services and Infrastructure",
+    "category": "Media and information services",
+    "entity_name": "Akamai"
+  },
+  {
+    "name": "Alaska Air Group, Inc.",
+    "ticker": "ALK",
+    "industry": "Airlines",
+    "category": "Transport services",
+    "entity_name": "Alaska Air Group"
+  },
+  {
+    "name": "Albemarle Corporation",
+    "ticker": "ALB",
+    "industry": "Specialty Chemicals",
+    "category": "Chemical industry",
+    "entity_name": "Albemarle"
+  },
+  {
+    "name": "Alexandria Real Estate Equities, Inc.",
+    "ticker": "ARE",
+    "industry": "Office REITs",
+    "category": "Finance",
+    "entity_name": "Alexandria"
+  },
+  {
+    "name": "Alexion Pharmaceuticals, Inc.",
+    "ticker": "ALXN",
+    "industry": "Biotechnology",
+    "category": "Healthcare and health industry",
+    "entity_name": "Alexion"
+  },
+  {
+    "name": "Align Technology, Inc.",
+    "ticker": "ALGN",
+    "industry": "Health Care Supplies",
+    "category": "Healthcare and health industry",
+    "entity_name": "Align Technology"
+  },
+  {
+    "name": "Allegion plc",
+    "ticker": "ALLE",
+    "industry": "Building Products",
+    "category": "Building materials and real estate industry",
+    "entity_name": "Allegion plc"
+  },
+  {
+    "name": "Alliant Energy Corporation",
+    "ticker": "LNT",
+    "industry": "Electric Utilities",
+    "category": "Public utilities",
+    "entity_name": "Alliant Energy Corporation"
+  },
+  {
+    "name": "Alphabet Inc.",
+    "ticker": "GOOG",
+    "industry": "Interactive Media and Services",
+    "category": "Media and information services",
+    "entity_name": "Alphabet"
+  },
+  {
+    "name": "Alphabet Inc.",
+    "ticker": "GOOG.L",
+    "industry": "Interactive Media and Services",
+    "category": "Media and information services",
+    "entity_name": "Alphabet"
+  },
+  {
+    "name": "Altria Group, Inc.",
+    "ticker": "MO",
+    "industry": "Tobacco",
+    "category": "Consumer goods industry",
+    "entity_name": "Altria Group"
+  },
+  {
+    "name": "Amazon.com, Inc.",
+    "ticker": "AMZN",
+    "industry": "Internet and Direct Marketing Retail",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Amazon"
+  },
+  {
+    "name": "Amcor plc",
+    "ticker": "AMCR",
+    "industry": "Paper Packaging",
+    "category": "Corporate services and paper industry",
+    "entity_name": "Amcor"
+  },
+  {
+    "name": "Ameren Corporation",
+    "ticker": "AEE",
+    "industry": "Multi-Utilities",
+    "category": "Public utilities",
+    "entity_name": "Ameren"
+  },
+  {
+    "name": "American Airlines Group Inc.",
+    "ticker": "AAL",
+    "industry": "Airlines",
+    "category": "Transport services",
+    "entity_name": "American Airlines Group"
+  },
+  {
+    "name": "American Electric Power Company, Inc.",
+    "ticker": "AEP",
+    "industry": "Electric Utilities",
+    "category": "Public utilities",
+    "entity_name": "American Electric Power Company"
+  },
+  {
+    "name": "American Express Company",
+    "ticker": "AXP",
+    "industry": "Consumer Finance",
+    "category": "Finance",
+    "entity_name": "American Express Company"
+  },
+  {
+    "name": "American International Group, Inc.",
+    "ticker": "AIG",
+    "industry": "Multi-line Insurance",
+    "category": "Finance",
+    "entity_name": "American International Group"
+  },
+  {
+    "name": "American Tower Corporation (REIT)",
+    "ticker": "AMT",
+    "industry": "Specialized REITs",
+    "category": "Finance",
+    "entity_name": "American Tower Corporation"
+  },
+  {
+    "name": "American Water Works Company, Inc.",
+    "ticker": "AWK",
+    "industry": "Water Utilities",
+    "category": "Public utilities",
+    "entity_name": "American Water Works Company"
+  },
+  {
+    "name": "Ameriprise Financial, Inc.",
+    "ticker": "AMP",
+    "industry": "Asset Management and Custody Banks",
+    "category": "Finance",
+    "entity_name": "Ameriprise Financial"
+  },
+  {
+    "name": "AmerisourceBergen Corporation",
+    "ticker": "ABC",
+    "industry": "Health Care Distributors",
+    "category": "Wholesale and retail industry",
+    "entity_name": "AmerisourceBergen"
+  },
+  {
+    "name": "AMETEK, Inc.",
+    "ticker": "AME",
+    "industry": "Electrical Components and Equipment",
+    "category": "Media and information services",
+    "entity_name": "AMETEK"
+  },
+  {
+    "name": "Amgen Inc.",
+    "ticker": "AMGN",
+    "industry": "Biotechnology",
+    "category": "Healthcare and health industry",
+    "entity_name": "Amgen"
+  },
+  {
+    "name": "Amphenol Corporation",
+    "ticker": "APH",
+    "industry": "Electronic Components",
+    "category": "Media and information services",
+    "entity_name": "Amphenol"
+  },
+  {
+    "name": "Analog Devices, Inc.",
+    "ticker": "ADI",
+    "industry": "Semiconductors",
+    "category": "Media and information services",
+    "entity_name": "Analog Devices"
+  },
+  {
+    "name": "ANSYS, Inc.",
+    "ticker": "ANSS",
+    "industry": "Application Software",
+    "category": "Media and information services",
+    "entity_name": "ANSYS"
+  },
+  {
+    "name": "Anthem, Inc.",
+    "ticker": "ANTM",
+    "industry": "Managed Health Care",
+    "category": "Healthcare and health industry",
+    "entity_name": "Anthem"
+  },
+  {
+    "name": "Aon Plc",
+    "ticker": "AON",
+    "industry": "Insurance Brokers",
+    "category": "Finance",
+    "entity_name": "Aon"
+  },
+  {
+    "name": "Apache Corporation",
+    "ticker": "APA",
+    "industry": "Oil and Gas Exploration and Production",
+    "category": "Energy industry",
+    "entity_name": "Apache"
+  },
+  {
+    "name": "Apartment Investment and Management Company",
+    "ticker": "AIV",
+    "industry": "Residential REITs",
+    "category": "Finance",
+    "entity_name": "Apartment Investment and Management Company"
+  },
+  {
+    "name": "Apple Inc.",
+    "ticker": "AAPL",
+    "industry": "Technology Hardware, Storage and Peripherals",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Apple"
+  },
+  {
+    "name": "Applied Materials, Inc.",
+    "ticker": "AMAT",
+    "industry": "Semiconductor Equipment",
+    "category": "Media and information services",
+    "entity_name": "Applied Materials"
+  },
+  {
+    "name": "Aptiv PLC",
+    "ticker": "APTV",
+    "industry": "Auto Parts and Equipment",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Aptiv"
+  },
+  {
+    "name": "Archer-Daniels-Midland Company",
+    "ticker": "ADM",
+    "industry": "Agricultural Products",
+    "category": "Consumer goods industry",
+    "entity_name": "Archer-Daniels-Midland"
+  },
+  {
+    "name": "Arista Networks, Inc.",
+    "ticker": "ANET",
+    "industry": "Communications Equipment",
+    "category": "Media and information services",
+    "entity_name": "Arista Networks"
+  },
+  {
+    "name": "Arthur J. Gallagher & Co.",
+    "ticker": "AJG",
+    "industry": "Insurance Brokers",
+    "category": "Finance",
+    "entity_name": "Arthur J. Gallagher & Co."
+  },
+  {
+    "name": "Assurant, Inc.",
+    "ticker": "AIZ",
+    "industry": "Multi-line Insurance",
+    "category": "Finance",
+    "entity_name": "Assurant"
+  },
+  {
+    "name": "AT&T Inc.",
+    "ticker": "T",
+    "industry": "Integrated Telecommunication Services",
+    "category": "Media and information services",
+    "entity_name": "AT&T"
+  },
+  {
+    "name": "Atmos Energy Corporation",
+    "ticker": "ATO",
+    "industry": "Gas Utilities",
+    "category": "Public utilities",
+    "entity_name": "Atmos Energy"
+  },
+  {
+    "name": "Autodesk, Inc.",
+    "ticker": "ADSK",
+    "industry": "Application Software",
+    "category": "Media and information services",
+    "entity_name": "Autodesk"
+  },
+  {
+    "name": "Automatic Data Processing, Inc.",
+    "ticker": "ADP",
+    "industry": "Data Processing and Outsourced Services",
+    "category": "Media and information services",
+    "entity_name": "Automatic Data Processing"
+  },
+  {
+    "name": "AutoZone, Inc.",
+    "ticker": "AZO",
+    "industry": "Automotive Retail",
+    "category": "Wholesale and retail industry",
+    "entity_name": "AutoZone"
+  },
+  {
+    "name": "AvalonBay Communities, Inc.",
+    "ticker": "AVB",
+    "industry": "Residential REITs",
+    "category": "Finance",
+    "entity_name": "AvalonBay"
+  },
+  {
+    "name": "Avery Dennison Corporation",
+    "ticker": "AVY",
+    "industry": "Paper Packaging",
+    "category": "Corporate services and paper industry",
+    "entity_name": "Avery Dennison"
+  },
+  {
+    "name": "Baker Hughes Company",
+    "ticker": "BKR",
+    "industry": "Oil and Gas Equipment and Services",
+    "category": "Energy industry",
+    "entity_name": "Baker Hughes"
+  },
+  {
+    "name": "Ball Corporation",
+    "ticker": "BLL",
+    "industry": "Metal and Glass Containers",
+    "category": "Materials industry",
+    "entity_name": "Ball Corporation"
+  },
+  {
+    "name": "Bank of America Corporation",
+    "ticker": "BAC",
+    "industry": "Diversified Banks",
+    "category": "Finance",
+    "entity_name": "Bank of America"
+  },
+  {
+    "name": "Baxter International Inc.",
+    "ticker": "BAX",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "Baxter"
+  },
+  {
+    "name": "Becton, Dickinson and Company",
+    "ticker": "BDX",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "Becton, Dickinson"
+  },
+  {
+    "name": "Berkshire Hathaway Inc.",
+    "ticker": "BRK.B",
+    "industry": "Multi-Sector Holdings",
+    "category": "Finance",
+    "entity_name": "Berkshire Hathaway"
+  },
+  {
+    "name": "Best Buy Co., Inc.",
+    "ticker": "BBY",
+    "industry": "Computer and Electronics Retail",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Best Buy Co"
+  },
+  {
+    "name": "Biogen Inc.",
+    "ticker": "BIIB",
+    "industry": "Biotechnology",
+    "category": "Healthcare and health industry",
+    "entity_name": "Biogen"
+  },
+  {
+    "name": "Bio-Rad Laboratories, Inc.",
+    "ticker": "BIO",
+    "industry": "Life Sciences Tools and Services",
+    "category": "Healthcare and health industry",
+    "entity_name": "Bio-Rad Laboratories"
+  },
+  {
+    "name": "BlackRock, Inc.",
+    "ticker": "BLK",
+    "industry": "Asset Management and Custody Banks",
+    "category": "Finance",
+    "entity_name": "BlackRock"
+  },
+  {
+    "name": "Booking Holdings Inc.",
+    "ticker": "BKNG",
+    "industry": "Internet and Direct Marketing Retail",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Booking Holdings"
+  },
+  {
+    "name": "BorgWarner Inc.",
+    "ticker": "BWA",
+    "industry": "Auto Parts and Equipment",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "BorgWarner"
+  },
+  {
+    "name": "Boston Properties, Inc.",
+    "ticker": "BXP",
+    "industry": "Office REITs",
+    "category": "Finance",
+    "entity_name": "Boston Properties"
+  },
+  {
+    "name": "Boston Scientific Corporation",
+    "ticker": "BSX",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "Boston Scientific Corporation"
+  },
+  {
+    "name": "Bristol-Myers Squibb Company",
+    "ticker": "BMY",
+    "industry": "Pharmaceuticals",
+    "category": "Healthcare and health industry",
+    "entity_name": "Bristol-Myers Squibb"
+  },
+  {
+    "name": "Broadcom Inc.",
+    "ticker": "AVGO",
+    "industry": "Semiconductors",
+    "category": "Media and information services",
+    "entity_name": "Broadcom"
+  },
+  {
+    "name": "Broadridge Financial Solutions, Inc.",
+    "ticker": "BR",
+    "industry": "Data Processing and Outsourced Services",
+    "category": "Media and information services",
+    "entity_name": "Broadridge Financial Solutions"
+  },
+  {
+    "name": "Brown-Forman Corporation",
+    "ticker": "BF.B",
+    "industry": "Distillers and Vintners",
+    "category": "Consumer goods industry",
+    "entity_name": "Brown-Forman"
+  },
+  {
+    "name": "C.H. Robinson Worldwide, Inc.",
+    "ticker": "CHRW",
+    "industry": "Air Freight and Logistics",
+    "category": "Transport services",
+    "entity_name": "C.H. Robinson Worldwide"
+  },
+  {
+    "name": "Cabot Oil & Gas Corporation",
+    "ticker": "COG",
+    "industry": "Oil and Gas Exploration and Production",
+    "category": "Energy industry",
+    "entity_name": "Cabot Oil & Gas"
+  },
+  {
+    "name": "Cadence Design Systems, Inc.",
+    "ticker": "CDNS",
+    "industry": "Application Software",
+    "category": "Media and information services",
+    "entity_name": "Cadence Design Systems"
+  },
+  {
+    "name": "Campbell Soup Company",
+    "ticker": "CPB",
+    "industry": "Packaged Foods and Meats",
+    "category": "Consumer goods industry",
+    "entity_name": "Campbell Soup"
+  },
+  {
+    "name": "Capital One Financial Corporation",
+    "ticker": "COF",
+    "industry": "Consumer Finance",
+    "category": "Finance",
+    "entity_name": "Capital One Financial"
+  },
+  {
+    "name": "Cardinal Health, Inc.",
+    "ticker": "CAH",
+    "industry": "Health Care Distributors",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Cardinal Health"
+  },
+  {
+    "name": "CarMax, Inc.",
+    "ticker": "KMX",
+    "industry": "Automotive Retail",
+    "category": "Wholesale and retail industry",
+    "entity_name": "CarMax"
+  },
+  {
+    "name": "Carnival Corporation & Plc",
+    "ticker": "CCL",
+    "industry": "Hotels, Resorts and Cruise Lines",
+    "category": "Catering And tourism",
+    "entity_name": "Carnival Corporation & Plc"
+  },
+  {
+    "name": "Carrier Global Corporation",
+    "ticker": "CARR",
+    "industry": "Building Products",
+    "category": "Building materials and real estate industry",
+    "entity_name": "Carrier Global"
+  },
+  {
+    "name": "Caterpillar Inc.",
+    "ticker": "CAT",
+    "industry": "Construction Machinery and Heavy Trucks",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Caterpillar"
+  },
+  {
+    "name": "Cboe Global Markets, Inc.",
+    "ticker": "BATS:CBOE",
+    "industry": "Financial Exchanges and Data",
+    "category": "Finance",
+    "entity_name": "Cboe Global Markets"
+  },
+  {
+    "name": "CBRE Group, Inc.",
+    "ticker": "CBRE",
+    "industry": "Real Estate Services",
+    "category": "Building materials and real estate industry",
+    "entity_name": "CBRE Group"
+  },
+  {
+    "name": "CDW Corporation",
+    "ticker": "CDW",
+    "industry": "Technology Distributors",
+    "category": "Wholesale and retail industry",
+    "entity_name": "CDW"
+  },
+  {
+    "name": "Celanese Corporation",
+    "ticker": "CE",
+    "industry": "Specialty Chemicals",
+    "category": "Chemical industry",
+    "entity_name": "Celanese"
+  },
+  {
+    "name": "Centene Corporation",
+    "ticker": "CNC",
+    "industry": "Managed Health Care",
+    "category": "Healthcare and health industry",
+    "entity_name": "Centene"
+  },
+  {
+    "name": "CenterPoint Energy, Inc.",
+    "ticker": "CNP",
+    "industry": "Multi-Utilities",
+    "category": "Public utilities",
+    "entity_name": "CenterPoint Energy"
+  },
+  {
+    "name": "CenturyLink, Inc.",
+    "ticker": "CTL",
+    "industry": "Alternative Carriers",
+    "category": "Transport services",
+    "entity_name": "CenturyLink"
+  },
+  {
+    "name": "Cerner Corporation",
+    "ticker": "CERN",
+    "industry": "Health Care Technology",
+    "category": "Healthcare and health industry",
+    "entity_name": "Cerner"
+  },
+  {
+    "name": "CF Industries Holdings, Inc.",
+    "ticker": "CF",
+    "industry": "Fertilizers and Agricultural Chemicals",
+    "category": "Chemical industry",
+    "entity_name": "CF Industries Holdings"
+  },
+  {
+    "name": "Charter Communications, Inc.",
+    "ticker": "CHTR",
+    "industry": "Cable and Satellite",
+    "category": "Media and information services",
+    "entity_name": "Charter Communications"
+  },
+  {
+    "name": "Chevron Corporation",
+    "ticker": "CVX",
+    "industry": "Integrated Oil and Gas",
+    "category": "Energy industry",
+    "entity_name": "Chevron Corporation"
+  },
+  {
+    "name": "Chipotle Mexican Grill, Inc.",
+    "ticker": "CMG",
+    "industry": "Restaurants",
+    "category": "Catering And tourism",
+    "entity_name": "Chipotle Mexican Grill"
+  },
+  {
+    "name": "Chubb Limited",
+    "ticker": "CB",
+    "industry": "Property and Casualty Insurance",
+    "category": "Finance",
+    "entity_name": "Chubb"
+  },
+  {
+    "name": "Church & Dwight Co., Inc.",
+    "ticker": "CHD",
+    "industry": "Household Products",
+    "category": "Consumer goods industry",
+    "entity_name": "Church & Dwight Co."
+  },
+  {
+    "name": "Cigna Corporation",
+    "ticker": "CI",
+    "industry": "Health Care Services",
+    "category": "Healthcare and health industry",
+    "entity_name": "Cigna Corporation"
+  },
+  {
+    "name": "Cincinnati Financial Corporation",
+    "ticker": "CINF",
+    "industry": "Property and Casualty Insurance",
+    "category": "Finance",
+    "entity_name": "Cincinnati Financial"
+  },
+  {
+    "name": "Cintas Corporation",
+    "ticker": "CTAS",
+    "industry": "Diversified Support Services",
+    "category": "Corporate services and paper industry",
+    "entity_name": "Cintas"
+  },
+  {
+    "name": "Cisco Systems, Inc.",
+    "ticker": "CSCO",
+    "industry": "Communications Equipment",
+    "category": "Media and information services",
+    "entity_name": "Cisco"
+  },
+  {
+    "name": "Citigroup Inc.",
+    "ticker": "C",
+    "industry": "Diversified Banks",
+    "category": "Finance",
+    "entity_name": "Citigroup"
+  },
+  {
+    "name": "Citizens Financial Group, Inc.",
+    "ticker": "CFG",
+    "industry": "Regional Banks",
+    "category": "Finance",
+    "entity_name": "Citizens Financial Group"
+  },
+  {
+    "name": "Citrix Systems, Inc.",
+    "ticker": "CTXS",
+    "industry": "Application Software",
+    "category": "Media and information services",
+    "entity_name": "Citrix Systems"
+  },
+  {
+    "name": "CME Group Inc.",
+    "ticker": "CME",
+    "industry": "Financial Exchanges and Data",
+    "category": "Finance",
+    "entity_name": "CME Group"
+  },
+  {
+    "name": "CMS Energy Corporation",
+    "ticker": "CMS",
+    "industry": "Multi-Utilities",
+    "category": "Public utilities",
+    "entity_name": "CMS Energy"
+  },
+  {
+    "name": "Cognizant Technology Solutions Corporation",
+    "ticker": "CTSH",
+    "industry": "IT Consulting and Other Services",
+    "category": "Media and information services",
+    "entity_name": "Cognizant Technology Solutions"
+  },
+  {
+    "name": "Colgate-Palmolive Company",
+    "ticker": "CL",
+    "industry": "Household Products",
+    "category": "Consumer goods industry",
+    "entity_name": "Colgate-Palmolive"
+  },
+  {
+    "name": "Comcast Corporation",
+    "ticker": "CMCS.A",
+    "industry": "Cable and Satellite",
+    "category": "Media and information services",
+    "entity_name": "Comcast Corporation"
+  },
+  {
+    "name": "Comerica Incorporated",
+    "ticker": "CMA",
+    "industry": "Regional Banks",
+    "category": "Finance",
+    "entity_name": "Comerica Incorporated"
+  },
+  {
+    "name": "Conagra Brands, Inc.",
+    "ticker": "CAG",
+    "industry": "Packaged Foods and Meats",
+    "category": "Consumer goods industry",
+    "entity_name": "Conagra Brands"
+  },
+  {
+    "name": "Concho Resources Inc.",
+    "ticker": "CXO",
+    "industry": "Oil and Gas Exploration and Production",
+    "category": "Energy industry",
+    "entity_name": "Concho Resources"
+  },
+  {
+    "name": "ConocoPhillips",
+    "ticker": "COP",
+    "industry": "Oil and Gas Exploration and Production",
+    "category": "Energy industry",
+    "entity_name": "ConocoPhillips"
+  },
+  {
+    "name": "Consolidated Edison, Inc.",
+    "ticker": "ED",
+    "industry": "Multi-Utilities",
+    "category": "Public utilities",
+    "entity_name": "Consolidated Edison"
+  },
+  {
+    "name": "Constellation Brands, Inc.",
+    "ticker": "STZ",
+    "industry": "Distillers and Vintners",
+    "category": "Consumer goods industry",
+    "entity_name": "Constellation Brands"
+  },
+  {
+    "name": "Copart, Inc.",
+    "ticker": "CPRT",
+    "industry": "Diversified Support Services",
+    "category": "Corporate services and paper industry",
+    "entity_name": "Copart"
+  },
+  {
+    "name": "Corning Incorporated",
+    "ticker": "GLW",
+    "industry": "Electronic Components",
+    "category": "Media and information services",
+    "entity_name": "Corning Incorporated"
+  },
+  {
+    "name": "Corteva, Inc.",
+    "ticker": "CTVA",
+    "industry": "Fertilizers and Agricultural Chemicals",
+    "category": "Chemical industry",
+    "entity_name": "Corteva"
+  },
+  {
+    "name": "Costco Wholesale Corporation",
+    "ticker": "COST",
+    "industry": "Hypermarkets and Super Centers",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Costco Wholesale"
+  },
+  {
+    "name": "Coty Inc.",
+    "ticker": "COTY",
+    "industry": "Personal Products",
+    "category": "Consumer goods industry",
+    "entity_name": "Coty"
+  },
+  {
+    "name": "Crown Castle International Corp. (REIT)",
+    "ticker": "CCI",
+    "industry": "Specialized REITs",
+    "category": "Finance",
+    "entity_name": "Crown Castle"
+  },
+  {
+    "name": "CSX Corporation",
+    "ticker": "CSX",
+    "industry": "Railroads",
+    "category": "Transport services",
+    "entity_name": "CSX"
+  },
+  {
+    "name": "Cummins Inc.",
+    "ticker": "CMI",
+    "industry": "Construction Machinery and Heavy Trucks",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Cummins"
+  },
+  {
+    "name": "CVS Health Corporation",
+    "ticker": "CVS",
+    "industry": "Health Care Services",
+    "category": "Healthcare and health industry",
+    "entity_name": "CVS Health Corporation"
+  },
+  {
+    "name": "D.R. Horton, Inc.",
+    "ticker": "DHI",
+    "industry": "Homebuilding",
+    "category": "Building materials and real estate industry",
+    "entity_name": "D.R. Horton"
+  },
+  {
+    "name": "Danaher Corporation",
+    "ticker": "DHR",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "Danaher Corporation"
+  },
+  {
+    "name": "Darden Restaurants, Inc.",
+    "ticker": "DRI",
+    "industry": "Restaurants",
+    "category": "Catering And tourism",
+    "entity_name": "Darden Restaurants"
+  },
+  {
+    "name": "DaVita Inc.",
+    "ticker": "DVA",
+    "industry": "Health Care Services",
+    "category": "Healthcare and health industry",
+    "entity_name": "DaVita"
+  },
+  {
+    "name": "Deere & Company",
+    "ticker": "DE",
+    "industry": "Agricultural and Farm Machinery",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Deere & Company"
+  },
+  {
+    "name": "Delta Air Lines, Inc.",
+    "ticker": "DAL",
+    "industry": "Airlines",
+    "category": "Transport services",
+    "entity_name": "Delta Air Lines"
+  },
+  {
+    "name": "DENTSPLY SIRONA Inc.",
+    "ticker": "XRAY",
+    "industry": "Health Care Supplies",
+    "category": "Healthcare and health industry",
+    "entity_name": "DENTSPLY SIRONA"
+  },
+  {
+    "name": "Devon Energy Corporation",
+    "ticker": "DVN",
+    "industry": "Oil and Gas Exploration and Production",
+    "category": "Energy industry",
+    "entity_name": "Devon Energy"
+  },
+  {
+    "name": "DexCom, Inc.",
+    "ticker": "DXCM",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "DexCom"
+  },
+  {
+    "name": "Diamondback Energy, Inc.",
+    "ticker": "FANG",
+    "industry": "Oil and Gas Exploration and Production",
+    "category": "Energy industry",
+    "entity_name": "Diamondback Energy"
+  },
+  {
+    "name": "Digital Realty Trust, Inc.",
+    "ticker": "DLR",
+    "industry": "Specialized REITs",
+    "category": "Finance",
+    "entity_name": "Digital Realty Trust"
+  },
+  {
+    "name": "Discover Financial Services",
+    "ticker": "DFS",
+    "industry": "Consumer Finance",
+    "category": "Finance",
+    "entity_name": "Discover Financial Services"
+  },
+  {
+    "name": "Discovery, Inc.",
+    "ticker": "DISC.A",
+    "industry": "Broadcasting",
+    "category": "Media and information services",
+    "entity_name": "Discovery, Inc."
+  },
+  {
+    "name": "Discovery, Inc.",
+    "ticker": "DISC.K",
+    "industry": "Broadcasting",
+    "category": "Media and information services",
+    "entity_name": "Discovery, Inc."
+  },
+  {
+    "name": "DISH Network Corporation",
+    "ticker": "DISH",
+    "industry": "Cable and Satellite",
+    "category": "Media and information services",
+    "entity_name": "DISH Network"
+  },
+  {
+    "name": "Dollar General Corporation",
+    "ticker": "DG",
+    "industry": "General Merchandise Stores",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Dollar General Corporation"
+  },
+  {
+    "name": "Dollar Tree, Inc.",
+    "ticker": "DLTR",
+    "industry": "General Merchandise Stores",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Dollar Tree"
+  },
+  {
+    "name": "Dominion Energy, Inc.",
+    "ticker": "D",
+    "industry": "Multi-Utilities",
+    "category": "Public utilities",
+    "entity_name": "Dominion Energy"
+  },
+  {
+    "name": "Domino's Pizza, Inc.",
+    "ticker": "DPZ",
+    "industry": "Restaurants",
+    "category": "Catering And tourism",
+    "entity_name": "Domino's Pizza"
+  },
+  {
+    "name": "Dover Corporation",
+    "ticker": "DOV",
+    "industry": "Industrial Machinery",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Dover Corporation"
+  },
+  {
+    "name": "Dow Inc.",
+    "ticker": "DOW",
+    "industry": "Commodity Chemicals",
+    "category": "Chemical industry",
+    "entity_name": "Dow Inc."
+  },
+  {
+    "name": "DTE Energy Company",
+    "ticker": "DTE",
+    "industry": "Multi-Utilities",
+    "category": "Public utilities",
+    "entity_name": "DTE Energy"
+  },
+  {
+    "name": "Duke Energy Corporation",
+    "ticker": "DUK",
+    "industry": "Electric Utilities",
+    "category": "Public utilities",
+    "entity_name": "Duke Energy"
+  },
+  {
+    "name": "Duke Realty Corporation",
+    "ticker": "DRE",
+    "industry": "Industrial REITs",
+    "category": "Finance",
+    "entity_name": "Duke Realty"
+  },
+  {
+    "name": "DuPont de Nemours, Inc.",
+    "ticker": "DD",
+    "industry": "Specialty Chemicals",
+    "category": "Chemical industry",
+    "entity_name": "DuPont de Nemours"
+  },
+  {
+    "name": "DXC Technology Company",
+    "ticker": "DXC",
+    "industry": "IT Consulting and Other Services",
+    "category": "Media and information services",
+    "entity_name": "DXC Technology"
+  },
+  {
+    "name": "E*TRADE Financial Corporation",
+    "ticker": "ETFC",
+    "industry": "Investment Banking and Brokerage",
+    "category": "Finance",
+    "entity_name": "E*TRADE Financial"
+  },
+  {
+    "name": "Eastman Chemical Company",
+    "ticker": "EMN",
+    "industry": "Diversified Chemicals",
+    "category": "Chemical industry",
+    "entity_name": "Eastman Chemical"
+  },
+  {
+    "name": "Eaton Corporation plc",
+    "ticker": "ETN",
+    "industry": "Electrical Components and Equipment",
+    "category": "Media and information services",
+    "entity_name": "Eaton Corporation"
+  },
+  {
+    "name": "eBay Inc.",
+    "ticker": "EBAY",
+    "industry": "Internet and Direct Marketing Retail",
+    "category": "Wholesale and retail industry",
+    "entity_name": "eBay"
+  },
+  {
+    "name": "Ecolab Inc.",
+    "ticker": "ECL",
+    "industry": "Specialty Chemicals",
+    "category": "Chemical industry",
+    "entity_name": "Ecolab"
+  },
+  {
+    "name": "Edison International",
+    "ticker": "EIX",
+    "industry": "Electric Utilities",
+    "category": "Public utilities",
+    "entity_name": "Edison"
+  },
+  {
+    "name": "Edwards Lifesciences Corporation",
+    "ticker": "EW",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "Edwards Lifesciences"
+  },
+  {
+    "name": "Electronic Arts Inc.",
+    "ticker": "EA",
+    "industry": "Interactive Home Entertainment",
+    "category": "Media and information services",
+    "entity_name": "Electronic Arts"
+  },
+  {
+    "name": "Eli Lilly and Company",
+    "ticker": "LLY",
+    "industry": "Pharmaceuticals",
+    "category": "Healthcare and health industry",
+    "entity_name": "Eli Lilly and Company"
+  },
+  {
+    "name": "Emerson Electric Co.",
+    "ticker": "EMR",
+    "industry": "Electrical Components and Equipment",
+    "category": "Media and information services",
+    "entity_name": "Emerson Electric Co."
+  },
+  {
+    "name": "Entergy Corporation",
+    "ticker": "ETR",
+    "industry": "Electric Utilities",
+    "category": "Public utilities",
+    "entity_name": "Entergy Corporation"
+  },
+  {
+    "name": "EOG Resources, Inc.",
+    "ticker": "EOG",
+    "industry": "Oil and Gas Exploration and Production",
+    "category": "Energy industry",
+    "entity_name": "EOG Resources"
+  },
+  {
+    "name": "Equifax Inc.",
+    "ticker": "EFX",
+    "industry": "Research and Consulting Services",
+    "category": "Corporate services and paper industry",
+    "entity_name": "Equifax"
+  },
+  {
+    "name": "Equinix, Inc. (REIT)",
+    "ticker": "EQIX",
+    "industry": "Specialized REITs",
+    "category": "Finance",
+    "entity_name": "Equinix"
+  },
+  {
+    "name": "Equity Residential",
+    "ticker": "EQR",
+    "industry": "Residential REITs",
+    "category": "Finance",
+    "entity_name": "Equity Residential"
+  },
+  {
+    "name": "Essex Property Trust, Inc.",
+    "ticker": "ESS",
+    "industry": "Residential REITs",
+    "category": "Finance",
+    "entity_name": "Essex Property Trust"
+  },
+  {
+    "name": "Everest Re Group, Ltd.",
+    "ticker": "RE",
+    "industry": "Reinsurance",
+    "category": "Finance",
+    "entity_name": "Everest Re Group"
+  },
+  {
+    "name": "Evergy, Inc.",
+    "ticker": "EVRG",
+    "industry": "Electric Utilities",
+    "category": "Public utilities",
+    "entity_name": "Evergy"
+  },
+  {
+    "name": "Eversource Energy",
+    "ticker": "ES",
+    "industry": "Electric Utilities",
+    "category": "Public utilities",
+    "entity_name": "Eversource Energy"
+  },
+  {
+    "name": "Exelon Corporation",
+    "ticker": "EXC",
+    "industry": "Electric Utilities",
+    "category": "Public utilities",
+    "entity_name": "Exelon"
+  },
+  {
+    "name": "Expedia Group, Inc.",
+    "ticker": "EXPE",
+    "industry": "Internet and Direct Marketing Retail",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Expedia Group"
+  },
+  {
+    "name": "Expeditors International of Washington, Inc.",
+    "ticker": "EXPD",
+    "industry": "Air Freight and Logistics",
+    "category": "Transport services",
+    "entity_name": "Expeditors International of Washington"
+  },
+  {
+    "name": "Extra Space Storage Inc.",
+    "ticker": "EXR",
+    "industry": "Specialized REITs",
+    "category": "Finance",
+    "entity_name": "Extra Space Storage"
+  },
+  {
+    "name": "Exxon Mobil Corporation",
+    "ticker": "XOM",
+    "industry": "Integrated Oil and Gas",
+    "category": "Energy industry",
+    "entity_name": "Exxon Mobil"
+  },
+  {
+    "name": "F5 Networks, Inc.",
+    "ticker": "FFIV",
+    "industry": "Communications Equipment",
+    "category": "Media and information services",
+    "entity_name": "F5 Networks"
+  },
+  {
+    "name": "Facebook, Inc.",
+    "ticker": "FB",
+    "industry": "Interactive Media and Services",
+    "category": "Media and information services",
+    "entity_name": "Facebook"
+  },
+  {
+    "name": "Fastenal Company",
+    "ticker": "FAST",
+    "industry": "Trading Companies and Distributors",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Fastenal Company"
+  },
+  {
+    "name": "Federal Realty Investment Trust",
+    "ticker": "FRT",
+    "industry": "Retail REITs",
+    "category": "Finance",
+    "entity_name": "Federal Realty Investment Trust"
+  },
+  {
+    "name": "FedEx Corporation",
+    "ticker": "FDX",
+    "industry": "Air Freight and Logistics",
+    "category": "Transport services",
+    "entity_name": "FedEx"
+  },
+  {
+    "name": "Fidelity National Information Services, Inc.",
+    "ticker": "FIS",
+    "industry": "Data Processing and Outsourced Services",
+    "category": "Media and information services",
+    "entity_name": "Fidelity National Information Services"
+  },
+  {
+    "name": "Fifth Third Bancorp",
+    "ticker": "FITB",
+    "industry": "Regional Banks",
+    "category": "Finance",
+    "entity_name": "Fifth Third Bancorp"
+  },
+  {
+    "name": "First Republic Bank",
+    "ticker": "FRC",
+    "industry": "Regional Banks",
+    "category": "Finance",
+    "entity_name": "First Republic Bank"
+  },
+  {
+    "name": "FirstEnergy Corp.",
+    "ticker": "FE",
+    "industry": "Electric Utilities",
+    "category": "Public utilities",
+    "entity_name": "FirstEnergy Corp."
+  },
+  {
+    "name": "Fiserv, Inc.",
+    "ticker": "FISV",
+    "industry": "Data Processing and Outsourced Services",
+    "category": "Media and information services",
+    "entity_name": "Fiserv"
+  },
+  {
+    "name": "FLEETCOR Technologies, Inc.",
+    "ticker": "FLT",
+    "industry": "Data Processing and Outsourced Services",
+    "category": "Media and information services",
+    "entity_name": "FLEETCOR Technologies"
+  },
+  {
+    "name": "FLIR Systems, Inc.",
+    "ticker": "FLIR",
+    "industry": "Electronic Equipment and Instruments",
+    "category": "Media and information services",
+    "entity_name": "FLIR Systems"
+  },
+  {
+    "name": "Flowserve Corporation",
+    "ticker": "FLS",
+    "industry": "Industrial Machinery",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Flowserve Corporation"
+  },
+  {
+    "name": "FMC Corporation",
+    "ticker": "FMC",
+    "industry": "Fertilizers and Agricultural Chemicals",
+    "category": "Chemical industry",
+    "entity_name": "FMC Corporation"
+  },
+  {
+    "name": "Ford Motor Company",
+    "ticker": "F",
+    "industry": "Automobile Manufacturers",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Ford Motor Company"
+  },
+  {
+    "name": "Fortinet, Inc.",
+    "ticker": "FTNT",
+    "industry": "Systems Software",
+    "category": "Media and information services",
+    "entity_name": "Fortinet"
+  },
+  {
+    "name": "Fortive Corporation",
+    "ticker": "FTV",
+    "industry": "Industrial Machinery",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Fortive Corporation"
+  },
+  {
+    "name": "Fortune Brands Home & Security, Inc.",
+    "ticker": "FBHS",
+    "industry": "Building Products",
+    "category": "Building materials and real estate industry",
+    "entity_name": "Fortune Brands Home & Security"
+  },
+  {
+    "name": "Fox Corporation",
+    "ticker": "FOX",
+    "industry": "Broadcasting",
+    "category": "Media and information services",
+    "entity_name": "Fox Corporation"
+  },
+  {
+    "name": "Fox Corporation",
+    "ticker": "FOXA",
+    "industry": "Broadcasting",
+    "category": "Media and information services",
+    "entity_name": "Fox Corporation"
+  },
+  {
+    "name": "Franklin Resources, Inc.",
+    "ticker": "BEN",
+    "industry": "Asset Management and Custody Banks",
+    "category": "Finance",
+    "entity_name": "Franklin Resources"
+  },
+  {
+    "name": "Freeport-McMoRan Inc.",
+    "ticker": "FCX",
+    "industry": "Copper",
+    "category": "Materials industry",
+    "entity_name": "Freeport-McMoRan"
+  },
+  {
+    "name": "Garmin Ltd.",
+    "ticker": "GRMN",
+    "industry": "Consumer Electronics",
+    "category": "Consumer goods industry",
+    "entity_name": "Garmin"
+  },
+  {
+    "name": "Gartner, Inc.",
+    "ticker": "IT",
+    "industry": "IT Consulting and Other Services",
+    "category": "Media and information services",
+    "entity_name": "Gartner"
+  },
+  {
+    "name": "General Dynamics Corporation",
+    "ticker": "GD",
+    "industry": "Aerospace and Defense",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "General Dynamics"
+  },
+  {
+    "name": "General Electric Company",
+    "ticker": "GE",
+    "industry": "Industrial Conglomerates",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "General Electric"
+  },
+  {
+    "name": "General Mills, Inc.",
+    "ticker": "GIS",
+    "industry": "Packaged Foods and Meats",
+    "category": "Consumer goods industry",
+    "entity_name": "General Mills"
+  },
+  {
+    "name": "General Motors Company",
+    "ticker": "GM",
+    "industry": "Automobile Manufacturers",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "General Motors"
+  },
+  {
+    "name": "Genuine Parts Company",
+    "ticker": "GPC",
+    "industry": "Distributors",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Genuine Parts"
+  },
+  {
+    "name": "Gilead Sciences, Inc.",
+    "ticker": "GILD",
+    "industry": "Biotechnology",
+    "category": "Healthcare and health industry",
+    "entity_name": "Gilead Sciences"
+  },
+  {
+    "name": "Global Payments Inc.",
+    "ticker": "GPN",
+    "industry": "Data Processing and Outsourced Services",
+    "category": "Media and information services",
+    "entity_name": "Global Payments"
+  },
+  {
+    "name": "Globe Life Inc.",
+    "ticker": "GL",
+    "industry": "Life and Health Insurance",
+    "category": "Finance",
+    "entity_name": "Globe Life"
+  },
+  {
+    "name": "H&R Block, Inc.",
+    "ticker": "HRB",
+    "industry": "Specialized Consumer Services",
+    "category": "Wholesale and retail industry",
+    "entity_name": "H&R Block"
+  },
+  {
+    "name": "Halliburton Company",
+    "ticker": "HAL",
+    "industry": "Oil and Gas Equipment and Services",
+    "category": "Energy industry",
+    "entity_name": "Halliburton"
+  },
+  {
+    "name": "Hanesbrands Inc.",
+    "ticker": "HBI",
+    "industry": "Apparel, Accessories and Luxury Goods",
+    "category": "Consumer goods industry",
+    "entity_name": "Hanesbrands"
+  },
+  {
+    "name": "Hasbro, Inc.",
+    "ticker": "HAS",
+    "industry": "Leisure Products",
+    "category": "Consumer goods industry",
+    "entity_name": "Hasbro"
+  },
+  {
+    "name": "HCA Healthcare, Inc.",
+    "ticker": "HCA",
+    "industry": "Health Care Facilities",
+    "category": "Healthcare and health industry",
+    "entity_name": "HCA Healthcare"
+  },
+  {
+    "name": "Healthpeak Properties, Inc.",
+    "ticker": "PEAK",
+    "industry": "Health Care REITs",
+    "category": "Finance",
+    "entity_name": "Healthpeak Properties"
+  },
+  {
+    "name": "Henry Schein, Inc.",
+    "ticker": "HSIC",
+    "industry": "Health Care Distributors",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Henry Schein"
+  },
+  {
+    "name": "Hess Corporation",
+    "ticker": "HES",
+    "industry": "Oil and Gas Exploration and Production",
+    "category": "Energy industry",
+    "entity_name": "Hess Corporation"
+  },
+  {
+    "name": "Hewlett Packard Enterprise Company",
+    "ticker": "HPE",
+    "industry": "Technology Hardware, Storage and Peripherals",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Hewlett Packard Enterprise"
+  },
+  {
+    "name": "Hilton Worldwide Holdings Inc.",
+    "ticker": "HLT",
+    "industry": "Hotels, Resorts and Cruise Lines",
+    "category": "Catering And tourism",
+    "entity_name": "Hilton Worldwide Holdings"
+  },
+  {
+    "name": "HollyFrontier Corporation",
+    "ticker": "HFC",
+    "industry": "Oil and Gas Refining and Marketing",
+    "category": "Energy industry",
+    "entity_name": "HollyFrontier"
+  },
+  {
+    "name": "Hologic, Inc.",
+    "ticker": "HOLX",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "Hologic"
+  },
+  {
+    "name": "Honeywell International Inc.",
+    "ticker": "HON",
+    "industry": "Industrial Conglomerates",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Honeywell International"
+  },
+  {
+    "name": "Hormel Foods Corporation",
+    "ticker": "HRL",
+    "industry": "Packaged Foods and Meats",
+    "category": "Consumer goods industry",
+    "entity_name": "Hormel Foods"
+  },
+  {
+    "name": "Host Hotels & Resorts, Inc.",
+    "ticker": "HST",
+    "industry": "Hotel and Resort REITs",
+    "category": "Finance",
+    "entity_name": "Host Hotels & Resorts"
+  },
+  {
+    "name": "Howmet Aerospace Inc.",
+    "ticker": "HWM",
+    "industry": "Aerospace and Defense",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Howmet Aerospace"
+  },
+  {
+    "name": "HP Inc.",
+    "ticker": "HPQ",
+    "industry": "Technology Hardware, Storage and Peripherals",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "HP"
+  },
+  {
+    "name": "Humana Inc.",
+    "ticker": "HUM",
+    "industry": "Managed Health Care",
+    "category": "Healthcare and health industry",
+    "entity_name": "Humana"
+  },
+  {
+    "name": "Huntington Bancshares Incorporated",
+    "ticker": "HBAN",
+    "industry": "Regional Banks",
+    "category": "Finance",
+    "entity_name": "Huntington Bancshares"
+  },
+  {
+    "name": "Huntington Ingalls Industries, Inc.",
+    "ticker": "HII",
+    "industry": "Aerospace and Defense",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Huntington Ingalls Industries"
+  },
+  {
+    "name": "IDEX Corporation",
+    "ticker": "IEX",
+    "industry": "Industrial Machinery",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "IDEX"
+  },
+  {
+    "name": "IDEXX Laboratories, Inc.",
+    "ticker": "IDXX",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "IDEXX Laboratories"
+  },
+  {
+    "name": "IHS Markit Ltd.",
+    "ticker": "INFO",
+    "industry": "Research and Consulting Services",
+    "category": "Corporate services and paper industry",
+    "entity_name": "IHS Markit"
+  },
+  {
+    "name": "Illinois Tool Works Inc.",
+    "ticker": "ITW",
+    "industry": "Industrial Machinery",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Illinois Tool Works"
+  },
+  {
+    "name": "Illumina, Inc.",
+    "ticker": "ILMN",
+    "industry": "Life Sciences Tools and Services",
+    "category": "Healthcare and health industry",
+    "entity_name": "Illumina"
+  },
+  {
+    "name": "Incyte Corporation",
+    "ticker": "INCY",
+    "industry": "Biotechnology",
+    "category": "Healthcare and health industry",
+    "entity_name": "Incyte"
+  },
+  {
+    "name": "Ingersoll Rand Inc.",
+    "ticker": "IR",
+    "industry": "Industrial Machinery",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Ingersoll Rand"
+  },
+  {
+    "name": "Intel Corporation",
+    "ticker": "INTC",
+    "industry": "Semiconductors",
+    "category": "Media and information services",
+    "entity_name": "Intel"
+  },
+  {
+    "name": "Intercontinental Exchange, Inc.",
+    "ticker": "ICE",
+    "industry": "Financial Exchanges and Data",
+    "category": "Finance",
+    "entity_name": "Intercontinental Exchange"
+  },
+  {
+    "name": "International Business Machines Corporation",
+    "ticker": "IBM",
+    "industry": "IT Consulting and Other Services",
+    "category": "Media and information services",
+    "entity_name": "International Business Machines"
+  },
+  {
+    "name": "International Flavors & Fragrances Inc.",
+    "ticker": "IFF",
+    "industry": "Specialty Chemicals",
+    "category": "Chemical industry",
+    "entity_name": "International Flavors & Fragrances"
+  },
+  {
+    "name": "International Paper Company",
+    "ticker": "IP",
+    "industry": "Paper Packaging",
+    "category": "Corporate services and paper industry",
+    "entity_name": "International Paper"
+  },
+  {
+    "name": "Intuit Inc.",
+    "ticker": "INTU",
+    "industry": "Application Software",
+    "category": "Media and information services",
+    "entity_name": "Intuit"
+  },
+  {
+    "name": "Intuitive Surgical, Inc.",
+    "ticker": "ISRG",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "Intuitive Surgical"
+  },
+  {
+    "name": "Invesco Ltd.",
+    "ticker": "IVZ",
+    "industry": "Asset Management and Custody Banks",
+    "category": "Finance",
+    "entity_name": "Invesco"
+  },
+  {
+    "name": "IPG Photonics Corporation",
+    "ticker": "IPGP",
+    "industry": "Electronic Manufacturing Services",
+    "category": "Media and information services",
+    "entity_name": "IPG Photonics"
+  },
+  {
+    "name": "IQVIA Holdings Inc.",
+    "ticker": "IQV",
+    "industry": "Life Sciences Tools and Services",
+    "category": "Healthcare and health industry",
+    "entity_name": "IQVIA Holdings"
+  },
+  {
+    "name": "Iron Mountain Incorporated",
+    "ticker": "IRM",
+    "industry": "Specialized REITs",
+    "category": "Finance",
+    "entity_name": "Iron Mountain"
+  },
+  {
+    "name": "J.B. Hunt Transport Services, Inc.",
+    "ticker": "JBHT",
+    "industry": "Trucking",
+    "category": "Transport services",
+    "entity_name": "J.B. Hunt Transport Services"
+  },
+  {
+    "name": "Jack Henry & Associates, Inc.",
+    "ticker": "JKHY",
+    "industry": "Data Processing and Outsourced Services",
+    "category": "Media and information services",
+    "entity_name": "Jack Henry & Associates"
+  },
+  {
+    "name": "Jacobs Engineering Group Inc.",
+    "ticker": "J",
+    "industry": "Construction and Engineering",
+    "category": "Building materials and real estate industry",
+    "entity_name": "Jacobs Engineering Group"
+  },
+  {
+    "name": "Johnson & Johnson",
+    "ticker": "JNJ",
+    "industry": "Pharmaceuticals",
+    "category": "Healthcare and health industry",
+    "entity_name": "Johnson & Johnson"
+  },
+  {
+    "name": "Johnson Controls International plc",
+    "ticker": "JCI",
+    "industry": "Building Products",
+    "category": "Building materials and real estate industry",
+    "entity_name": "Johnson Controls International"
+  },
+  {
+    "name": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "industry": "Diversified Banks",
+    "category": "Finance",
+    "entity_name": "JPMorgan Chase & Co."
+  },
+  {
+    "name": "Juniper Networks, Inc.",
+    "ticker": "JNPR",
+    "industry": "Communications Equipment",
+    "category": "Media and information services",
+    "entity_name": "Juniper Networks"
+  },
+  {
+    "name": "Kansas City Southern",
+    "ticker": "KSU",
+    "industry": "Railroads",
+    "category": "Transport services",
+    "entity_name": "Kansas City Southern"
+  },
+  {
+    "name": "Kellogg Company",
+    "ticker": "K",
+    "industry": "Packaged Foods and Meats",
+    "category": "Consumer goods industry",
+    "entity_name": "Kellogg"
+  },
+  {
+    "name": "KeyCorp",
+    "ticker": "KEY",
+    "industry": "Regional Banks",
+    "category": "Finance",
+    "entity_name": "KeyCorp"
+  },
+  {
+    "name": "Keysight Technologies, Inc.",
+    "ticker": "KEYS",
+    "industry": "Electronic Equipment and Instruments",
+    "category": "Media and information services",
+    "entity_name": "Keysight Technologies"
+  },
+  {
+    "name": "Kimberly-Clark Corporation",
+    "ticker": "KMB",
+    "industry": "Household Products",
+    "category": "Consumer goods industry",
+    "entity_name": "Kimberly-Clark"
+  },
+  {
+    "name": "Kimco Realty Corporation",
+    "ticker": "KIM",
+    "industry": "Retail REITs",
+    "category": "Finance",
+    "entity_name": "Kimco Realty"
+  },
+  {
+    "name": "Kinder Morgan, Inc.",
+    "ticker": "KMI",
+    "industry": "Oil and Gas Storage and Transportation",
+    "category": "Energy industry",
+    "entity_name": "Kinder Morgan"
+  },
+  {
+    "name": "KLA Corporation",
+    "ticker": "KLAC",
+    "industry": "Semiconductor Equipment",
+    "category": "Media and information services",
+    "entity_name": "KLA"
+  },
+  {
+    "name": "Kohl's Corporation",
+    "ticker": "KSS",
+    "industry": "Department Stores",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Kohl's"
+  },
+  {
+    "name": "L Brands, Inc.",
+    "ticker": "LB",
+    "industry": "Apparel Retail",
+    "category": "Consumer goods industry",
+    "entity_name": "L Brands"
+  },
+  {
+    "name": "L3Harris Technologies, Inc.",
+    "ticker": "LHX",
+    "industry": "Aerospace and Defense",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "L3Harris Technologies"
+  },
+  {
+    "name": "Laboratory Corporation of America Holdings",
+    "ticker": "LH",
+    "industry": "Health Care Services",
+    "category": "Healthcare and health industry",
+    "entity_name": "Laboratory Corporation of America Holdings"
+  },
+  {
+    "name": "Lam Research Corporation",
+    "ticker": "LRCX",
+    "industry": "Semiconductor Equipment",
+    "category": "Media and information services",
+    "entity_name": "Lam Research"
+  },
+  {
+    "name": "Lamb Weston Holdings, Inc.",
+    "ticker": "LW",
+    "industry": "Packaged Foods and Meats",
+    "category": "Consumer goods industry",
+    "entity_name": "Lamb Weston Holdings"
+  },
+  {
+    "name": "Las Vegas Sands Corp.",
+    "ticker": "LVS",
+    "industry": "Casinos and Gaming",
+    "category": "Media and information services",
+    "entity_name": "Las Vegas Sands"
+  },
+  {
+    "name": "Leggett & Platt, Incorporated",
+    "ticker": "LEG",
+    "industry": "Home Furnishings",
+    "category": "Consumer goods industry",
+    "entity_name": "Leggett & Platt"
+  },
+  {
+    "name": "Leidos Holdings, Inc.",
+    "ticker": "LDOS",
+    "industry": "IT Consulting and Other Services",
+    "category": "Media and information services",
+    "entity_name": "Leidos Holdings"
+  },
+  {
+    "name": "Lennar Corporation",
+    "ticker": "LEN",
+    "industry": "Homebuilding",
+    "category": "Building materials and real estate industry",
+    "entity_name": "Lennar"
+  },
+  {
+    "name": "Lincoln National Corporation",
+    "ticker": "LNC",
+    "industry": "Life and Health Insurance",
+    "category": "Finance",
+    "entity_name": "Lincoln National"
+  },
+  {
+    "name": "Linde plc",
+    "ticker": "LIN",
+    "industry": "Industrial Gases",
+    "category": "Energy industry",
+    "entity_name": "Linde"
+  },
+  {
+    "name": "Live Nation Entertainment, Inc.",
+    "ticker": "LYV",
+    "industry": "Movies and Entertainment",
+    "category": "Media and information services",
+    "entity_name": "Live Nation Entertainment"
+  },
+  {
+    "name": "LKQ Corporation",
+    "ticker": "LKQ",
+    "industry": "Distributors",
+    "category": "Wholesale and retail industry",
+    "entity_name": "LKQ"
+  },
+  {
+    "name": "Lockheed Martin Corporation",
+    "ticker": "LMT",
+    "industry": "Aerospace and Defense",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Lockheed Martin"
+  },
+  {
+    "name": "Loews Corporation",
+    "ticker": "L",
+    "industry": "Property and Casualty Insurance",
+    "category": "Finance",
+    "entity_name": "Loews"
+  },
+  {
+    "name": "Lowe's Companies, Inc.",
+    "ticker": "LOW",
+    "industry": "Home Improvement Retail",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Lowe's Companies"
+  },
+  {
+    "name": "LyondellBasell Industries N.V.",
+    "ticker": "LYB",
+    "industry": "Commodity Chemicals",
+    "category": "Chemical industry",
+    "entity_name": "LyondellBasell Industries"
+  },
+  {
+    "name": "M&T Bank Corporation",
+    "ticker": "MTB",
+    "industry": "Regional Banks",
+    "category": "Finance",
+    "entity_name": "M&T Bank"
+  },
+  {
+    "name": "Marathon Oil Corporation",
+    "ticker": "MRO",
+    "industry": "Oil and Gas Exploration and Production",
+    "category": "Energy industry",
+    "entity_name": "Marathon Oil"
+  },
+  {
+    "name": "Marathon Petroleum Corporation",
+    "ticker": "MPC",
+    "industry": "Oil and Gas Refining and Marketing",
+    "category": "Energy industry",
+    "entity_name": "Marathon Petroleum"
+  },
+  {
+    "name": "MarketAxess Holdings Inc.",
+    "ticker": "MKTX",
+    "industry": "Financial Exchanges and Data",
+    "category": "Finance",
+    "entity_name": "MarketAxess Holdings"
+  },
+  {
+    "name": "Marriott International, Inc.",
+    "ticker": "MAR",
+    "industry": "Hotels, Resorts and Cruise Lines",
+    "category": "Catering And tourism",
+    "entity_name": "Marriott International"
+  },
+  {
+    "name": "Marsh & McLennan Companies, Inc.",
+    "ticker": "MMC",
+    "industry": "Insurance Brokers",
+    "category": "Finance",
+    "entity_name": "Marsh & McLennan Companies"
+  },
+  {
+    "name": "Martin Marietta Materials, Inc.",
+    "ticker": "MLM",
+    "industry": "Construction Materials",
+    "category": "Building materials and real estate industry",
+    "entity_name": "Martin Marietta Materials"
+  },
+  {
+    "name": "Masco Corporation",
+    "ticker": "MAS",
+    "industry": "Building Products",
+    "category": "Building materials and real estate industry",
+    "entity_name": "Masco Corporation"
+  },
+  {
+    "name": "Mastercard Incorporated",
+    "ticker": "MA",
+    "industry": "Data Processing and Outsourced Services",
+    "category": "Media and information services",
+    "entity_name": "Mastercard"
+  },
+  {
+    "name": "Maxim Integrated Products, Inc.",
+    "ticker": "MXIM",
+    "industry": "Semiconductors",
+    "category": "Media and information services",
+    "entity_name": "Maxim Integrated Products"
+  },
+  {
+    "name": "McCormick & Company, Incorporated",
+    "ticker": "MKC",
+    "industry": "Packaged Foods and Meats",
+    "category": "Consumer goods industry",
+    "entity_name": "McCormick & Company"
+  },
+  {
+    "name": "McDonald's Corporation",
+    "ticker": "MCD",
+    "industry": "Restaurants",
+    "category": "Catering And tourism",
+    "entity_name": "McDonald's"
+  },
+  {
+    "name": "McKesson Corporation",
+    "ticker": "MCK",
+    "industry": "Health Care Distributors",
+    "category": "Wholesale and retail industry",
+    "entity_name": "McKesson"
+  },
+  {
+    "name": "Medtronic plc",
+    "ticker": "MDT",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "Medtronic"
+  },
+  {
+    "name": "Merck & Co., Inc.",
+    "ticker": "MRK",
+    "industry": "Pharmaceuticals",
+    "category": "Healthcare and health industry",
+    "entity_name": "Merck & Co."
+  },
+  {
+    "name": "MetLife, Inc.",
+    "ticker": "MET",
+    "industry": "Life and Health Insurance",
+    "category": "Finance",
+    "entity_name": "MetLife"
+  },
+  {
+    "name": "Mettler-Toledo International Inc.",
+    "ticker": "MTD",
+    "industry": "Life Sciences Tools and Services",
+    "category": "Healthcare and health industry",
+    "entity_name": "Mettler-Toledo"
+  },
+  {
+    "name": "MGM Resorts International",
+    "ticker": "MGM",
+    "industry": "Casinos and Gaming",
+    "category": "Media and information services",
+    "entity_name": "MGM Resorts"
+  },
+  {
+    "name": "Microchip Technology Incorporated",
+    "ticker": "MCHP",
+    "industry": "Semiconductors",
+    "category": "Media and information services",
+    "entity_name": "Microchip Technology"
+  },
+  {
+    "name": "Micron Technology, Inc.",
+    "ticker": "MU",
+    "industry": "Semiconductors",
+    "category": "Media and information services",
+    "entity_name": "Micron Technology"
+  },
+  {
+    "name": "Microsoft Corporation",
+    "ticker": "MSFT",
+    "industry": "Systems Software",
+    "category": "Media and information services",
+    "entity_name": "Microsoft"
+  },
+  {
+    "name": "Mid-America Apartment Communities, Inc.",
+    "ticker": "MAA",
+    "industry": "Residential REITs",
+    "category": "Finance",
+    "entity_name": "Mid-America Apartment Communities"
+  },
+  {
+    "name": "Mohawk Industries, Inc.",
+    "ticker": "MHK",
+    "industry": "Home Furnishings",
+    "category": "Consumer goods industry",
+    "entity_name": "Mohawk Industries"
+  },
+  {
+    "name": "Molson Coors Beverage Company",
+    "ticker": "TAP",
+    "industry": "Brewers",
+    "category": "Consumer goods industry",
+    "entity_name": "Molson Coors Beverage"
+  },
+  {
+    "name": "Mondelez International, Inc.",
+    "ticker": "MDLZ",
+    "industry": "Packaged Foods and Meats",
+    "category": "Consumer goods industry",
+    "entity_name": "Mondelez International"
+  },
+  {
+    "name": "Monster Beverage Corporation",
+    "ticker": "MNST",
+    "industry": "Soft Drinks",
+    "category": "Consumer goods industry",
+    "entity_name": "Monster Beverage"
+  },
+  {
+    "name": "Moody's Corporation",
+    "ticker": "MCO",
+    "industry": "Financial Exchanges and Data",
+    "category": "Finance",
+    "entity_name": "Moody's Corporation"
+  },
+  {
+    "name": "Morgan Stanley",
+    "ticker": "MS",
+    "industry": "Investment Banking and Brokerage",
+    "category": "Finance",
+    "entity_name": "Morgan Stanley"
+  },
+  {
+    "name": "Motorola Solutions, Inc.",
+    "ticker": "MSI",
+    "industry": "Communications Equipment",
+    "category": "Media and information services",
+    "entity_name": "Motorola Solutions"
+  },
+  {
+    "name": "MSCI Inc.",
+    "ticker": "MSCI",
+    "industry": "Financial Exchanges and Data",
+    "category": "Finance",
+    "entity_name": "MSCI"
+  },
+  {
+    "name": "Mylan, Inc.",
+    "ticker": "MYL",
+    "industry": "Pharmaceuticals",
+    "category": "Healthcare and health industry",
+    "entity_name": "Mylan"
+  },
+  {
+    "name": "Nasdaq, Inc.",
+    "ticker": "NDAQ",
+    "industry": "Financial Exchanges and Data",
+    "category": "Finance",
+    "entity_name": "Nasdaq"
+  },
+  {
+    "name": "National Oilwell Varco, Inc.",
+    "ticker": "NOV",
+    "industry": "Oil and Gas Equipment and Services",
+    "category": "Energy industry",
+    "entity_name": "National Oilwell Varco"
+  },
+  {
+    "name": "NetApp, Inc.",
+    "ticker": "NTAP",
+    "industry": "Technology Hardware, Storage and Peripherals",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "NetApp"
+  },
+  {
+    "name": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "industry": "Movies and Entertainment",
+    "category": "Media and information services",
+    "entity_name": "Netflix"
+  },
+  {
+    "name": "Newell Brands Inc.",
+    "ticker": "NWL",
+    "industry": "Housewares and Specialties",
+    "category": "Consumer goods industry",
+    "entity_name": "Newell Brands"
+  },
+  {
+    "name": "Newmont Corporation",
+    "ticker": "NEM",
+    "industry": "Gold",
+    "category": "Materials industry",
+    "entity_name": "Newmont Corporation"
+  },
+  {
+    "name": "News Corporation",
+    "ticker": "NWSA",
+    "industry": "Publishing",
+    "category": "Corporate services and paper industry",
+    "entity_name": "News Corporation"
+  },
+  {
+    "name": "News Corporation",
+    "ticker": "NWS",
+    "industry": "Publishing",
+    "category": "Corporate services and paper industry",
+    "entity_name": "News Corporation"
+  },
+  {
+    "name": "NextEra Energy, Inc.",
+    "ticker": "NEE",
+    "industry": "Electric Utilities",
+    "category": "Public utilities",
+    "entity_name": "NextEra Energy"
+  },
+  {
+    "name": "Nielsen Holdings plc",
+    "ticker": "NLSN",
+    "industry": "Research and Consulting Services",
+    "category": "Corporate services and paper industry",
+    "entity_name": "Nielsen Holdings"
+  },
+  {
+    "name": "NIKE, Inc.",
+    "ticker": "NKE",
+    "industry": "Footwear",
+    "category": "Consumer goods industry",
+    "entity_name": "NIKE"
+  },
+  {
+    "name": "NiSource Inc.",
+    "ticker": "NI",
+    "industry": "Multi-Utilities",
+    "category": "Public utilities",
+    "entity_name": "NiSource"
+  },
+  {
+    "name": "Noble Energy, Inc.",
+    "ticker": "NBL",
+    "industry": "Oil and Gas Exploration and Production",
+    "category": "Energy industry",
+    "entity_name": "Noble Energy"
+  },
+  {
+    "name": "Norfolk Southern Corporation",
+    "ticker": "NSC",
+    "industry": "Railroads",
+    "category": "Transport services",
+    "entity_name": "Norfolk Southern"
+  },
+  {
+    "name": "Northern Trust Corporation",
+    "ticker": "NTRS",
+    "industry": "Asset Management and Custody Banks",
+    "category": "Finance",
+    "entity_name": "Northern Trust"
+  },
+  {
+    "name": "Northrop Grumman Corporation",
+    "ticker": "NOC",
+    "industry": "Aerospace and Defense",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Northrop Grumman"
+  },
+  {
+    "name": "NortonLifeLock Inc.",
+    "ticker": "NLOK",
+    "industry": "Systems Software",
+    "category": "Media and information services",
+    "entity_name": "NortonLifeLock"
+  },
+  {
+    "name": "Norwegian Cruise Line Holdings Ltd.",
+    "ticker": "NCLH",
+    "industry": "Hotels, Resorts and Cruise Lines",
+    "category": "Catering And tourism",
+    "entity_name": "Norwegian Cruise Line Holdings"
+  },
+  {
+    "name": "NRG Energy, Inc.",
+    "ticker": "NRG",
+    "industry": "Electric Utilities",
+    "category": "Public utilities",
+    "entity_name": "NRG Energy"
+  },
+  {
+    "name": "Nucor Corporation",
+    "ticker": "NUE",
+    "industry": "Steel",
+    "category": "Materials industry",
+    "entity_name": "Nucor"
+  },
+  {
+    "name": "NVIDIA Corporation",
+    "ticker": "NVDA",
+    "industry": "Semiconductors",
+    "category": "Media and information services",
+    "entity_name": "NVIDIA"
+  },
+  {
+    "name": "NVR, Inc.",
+    "ticker": "NVR",
+    "industry": "Homebuilding",
+    "category": "Building materials and real estate industry",
+    "entity_name": "NVR"
+  },
+  {
+    "name": "Occidental Petroleum Corporation",
+    "ticker": "OXY",
+    "industry": "Integrated Oil and Gas",
+    "category": "Energy industry",
+    "entity_name": "Occidental Petroleum"
+  },
+  {
+    "name": "Old Dominion Freight Line, Inc.",
+    "ticker": "ODFL",
+    "industry": "Trucking",
+    "category": "Transport services",
+    "entity_name": "Old Dominion Freight Line"
+  },
+  {
+    "name": "Omnicom Group Inc.",
+    "ticker": "OMC",
+    "industry": "Advertising",
+    "category": "Media and information services",
+    "entity_name": "Omnicom Group"
+  },
+  {
+    "name": "ONEOK, Inc.",
+    "ticker": "OKE",
+    "industry": "Oil and Gas Storage and Transportation",
+    "category": "Energy industry",
+    "entity_name": "ONEOK"
+  },
+  {
+    "name": "Oracle Corporation",
+    "ticker": "ORCL",
+    "industry": "Systems Software",
+    "category": "Media and information services",
+    "entity_name": "Oracle"
+  },
+  {
+    "name": "O'Reilly Automotive, Inc.",
+    "ticker": "ORLY",
+    "industry": "Automotive Retail",
+    "category": "Wholesale and retail industry",
+    "entity_name": "O'Reilly Automotive"
+  },
+  {
+    "name": "Otis Worldwide Corporation",
+    "ticker": "OTIS",
+    "industry": "Industrial Machinery",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Otis Worldwide"
+  },
+  {
+    "name": "PACCAR Inc",
+    "ticker": "PCAR",
+    "industry": "Construction Machinery and Heavy Trucks",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "PACCAR"
+  },
+  {
+    "name": "Packaging Corporation of America",
+    "ticker": "PKG",
+    "industry": "Paper Packaging",
+    "category": "Corporate services and paper industry",
+    "entity_name": "Packaging Corporation of America"
+  },
+  {
+    "name": "Parker-Hannifin Corporation",
+    "ticker": "PH",
+    "industry": "Industrial Machinery",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Parker-Hannifin"
+  },
+  {
+    "name": "Paychex, Inc.",
+    "ticker": "PAYX",
+    "industry": "Data Processing and Outsourced Services",
+    "category": "Media and information services",
+    "entity_name": "Paychex"
+  },
+  {
+    "name": "Paycom Software, Inc.",
+    "ticker": "PAYC",
+    "industry": "Application Software",
+    "category": "Media and information services",
+    "entity_name": "Paycom Software"
+  },
+  {
+    "name": "PayPal Holdings, Inc.",
+    "ticker": "PYPL",
+    "industry": "Data Processing and Outsourced Services",
+    "category": "Media and information services",
+    "entity_name": "PayPal Holdings"
+  },
+  {
+    "name": "Pentair plc",
+    "ticker": "PNR",
+    "industry": "Industrial Machinery",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Pentair"
+  },
+  {
+    "name": "People's United Financial, Inc.",
+    "ticker": "PBCT",
+    "industry": "Regional Banks",
+    "category": "Finance",
+    "entity_name": "People's United Financial"
+  },
+  {
+    "name": "PepsiCo, Inc.",
+    "ticker": "PEP",
+    "industry": "Soft Drinks",
+    "category": "Consumer goods industry",
+    "entity_name": "PepsiCo"
+  },
+  {
+    "name": "PerkinElmer, Inc.",
+    "ticker": "PKI",
+    "industry": "Life Sciences Tools and Services",
+    "category": "Healthcare and health industry",
+    "entity_name": "PerkinElmer"
+  },
+  {
+    "name": "Perrigo Company plc",
+    "ticker": "PRGO",
+    "industry": "Pharmaceuticals",
+    "category": "Healthcare and health industry",
+    "entity_name": "Perrigo Company"
+  },
+  {
+    "name": "Pfizer Inc.",
+    "ticker": "PFE",
+    "industry": "Pharmaceuticals",
+    "category": "Healthcare and health industry",
+    "entity_name": "Pfizer"
+  },
+  {
+    "name": "Philip Morris International Inc.",
+    "ticker": "PM",
+    "industry": "Tobacco",
+    "category": "Consumer goods industry",
+    "entity_name": "Philip Morris"
+  },
+  {
+    "name": "Phillips 66",
+    "ticker": "PSX",
+    "industry": "Oil and Gas Refining and Marketing",
+    "category": "Energy industry",
+    "entity_name": "Phillips 66"
+  },
+  {
+    "name": "Pinnacle West Capital Corporation",
+    "ticker": "PNW",
+    "industry": "Electric Utilities",
+    "category": "Public utilities",
+    "entity_name": "Pinnacle West Capital"
+  },
+  {
+    "name": "Pioneer Natural Resources Company",
+    "ticker": "PXD",
+    "industry": "Oil and Gas Exploration and Production",
+    "category": "Energy industry",
+    "entity_name": "Pioneer Natural Resources"
+  },
+  {
+    "name": "PPG Industries, Inc.",
+    "ticker": "PPG",
+    "industry": "Specialty Chemicals",
+    "category": "Chemical industry",
+    "entity_name": "PPG Industries"
+  },
+  {
+    "name": "PPL Corporation",
+    "ticker": "PPL",
+    "industry": "Electric Utilities",
+    "category": "Public utilities",
+    "entity_name": "PPL"
+  },
+  {
+    "name": "Principal Financial Group, Inc.",
+    "ticker": "PFG",
+    "industry": "Life and Health Insurance",
+    "category": "Finance",
+    "entity_name": "Principal Financial Group"
+  },
+  {
+    "name": "Prologis, Inc.",
+    "ticker": "PLD",
+    "industry": "Industrial REITs",
+    "category": "Finance",
+    "entity_name": "Prologis"
+  },
+  {
+    "name": "Prudential Financial, Inc.",
+    "ticker": "PRU",
+    "industry": "Life and Health Insurance",
+    "category": "Finance",
+    "entity_name": "Prudential Financial"
+  },
+  {
+    "name": "Public Service Enterprise Group Incorporated",
+    "ticker": "PEG",
+    "industry": "Multi-Utilities",
+    "category": "Public utilities",
+    "entity_name": "Public Service Enterprise Group"
+  },
+  {
+    "name": "Public Storage",
+    "ticker": "PSA",
+    "industry": "Specialized REITs",
+    "category": "Finance",
+    "entity_name": "Public Storage"
+  },
+  {
+    "name": "PulteGroup, Inc.",
+    "ticker": "PHM",
+    "industry": "Homebuilding",
+    "category": "Building materials and real estate industry",
+    "entity_name": "PulteGroup"
+  },
+  {
+    "name": "PVH Corp.",
+    "ticker": "PVH",
+    "industry": "Apparel, Accessories and Luxury Goods",
+    "category": "Consumer goods industry",
+    "entity_name": "PVH"
+  },
+  {
+    "name": "Qorvo, Inc.",
+    "ticker": "QRVO",
+    "industry": "Semiconductors",
+    "category": "Media and information services",
+    "entity_name": "Qorvo"
+  },
+  {
+    "name": "QUALCOMM Incorporated",
+    "ticker": "QCOM",
+    "industry": "Semiconductors",
+    "category": "Media and information services",
+    "entity_name": "QUALCOMM"
+  },
+  {
+    "name": "Quanta Services, Inc.",
+    "ticker": "PWR",
+    "industry": "Construction and Engineering",
+    "category": "Building materials and real estate industry",
+    "entity_name": "Quanta Services"
+  },
+  {
+    "name": "Quest Diagnostics Incorporated",
+    "ticker": "DGX",
+    "industry": "Health Care Services",
+    "category": "Healthcare and health industry",
+    "entity_name": "Quest Diagnostics"
+  },
+  {
+    "name": "Ralph Lauren Corporation",
+    "ticker": "RL",
+    "industry": "Apparel, Accessories and Luxury Goods",
+    "category": "Consumer goods industry",
+    "entity_name": "Ralph Lauren"
+  },
+  {
+    "name": "Raymond James Financial, Inc.",
+    "ticker": "RJF",
+    "industry": "Investment Banking and Brokerage",
+    "category": "Finance",
+    "entity_name": "Raymond James"
+  },
+  {
+    "name": "Raytheon Technologies Corporation",
+    "ticker": "RTX",
+    "industry": "Aerospace and Defense",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Raytheon"
+  },
+  {
+    "name": "Realty Income Corporation",
+    "ticker": "O",
+    "industry": "Retail REITs",
+    "category": "Finance",
+    "entity_name": "Realty Income"
+  },
+  {
+    "name": "Regency Centers Corporation",
+    "ticker": "REG",
+    "industry": "Retail REITs",
+    "category": "Finance",
+    "entity_name": "Regency Centers"
+  },
+  {
+    "name": "Regeneron Pharmaceuticals, Inc.",
+    "ticker": "REGN",
+    "industry": "Biotechnology",
+    "category": "Healthcare and health industry",
+    "entity_name": "Regeneron Pharmaceuticals"
+  },
+  {
+    "name": "Regions Financial Corporation",
+    "ticker": "RF",
+    "industry": "Regional Banks",
+    "category": "Finance",
+    "entity_name": "Regions Financial"
+  },
+  {
+    "name": "Republic Services, Inc.",
+    "ticker": "RSG",
+    "industry": "Environmental and Facilities Services",
+    "category": "Public utilities",
+    "entity_name": "Republic Services"
+  },
+  {
+    "name": "ResMed Inc.",
+    "ticker": "RMD",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "ResMed"
+  },
+  {
+    "name": "Robert Half International Inc.",
+    "ticker": "RHI",
+    "industry": "Human Resource and Employment Services",
+    "category": "Corporate services and paper industry",
+    "entity_name": "Robert Half International"
+  },
+  {
+    "name": "Rockwell Automation, Inc.",
+    "ticker": "ROK",
+    "industry": "Electrical Components and Equipment",
+    "category": "Media and information services",
+    "entity_name": "Rockwell Automation"
+  },
+  {
+    "name": "Rollins, Inc.",
+    "ticker": "ROL",
+    "industry": "Environmental and Facilities Services",
+    "category": "Public utilities",
+    "entity_name": "Rollins"
+  },
+  {
+    "name": "Roper Technologies, Inc.",
+    "ticker": "ROP",
+    "industry": "Industrial Conglomerates",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Roper Technologies"
+  },
+  {
+    "name": "Ross Stores, Inc.",
+    "ticker": "ROST",
+    "industry": "Apparel Retail",
+    "category": "Consumer goods industry",
+    "entity_name": "Ross Stores"
+  },
+  {
+    "name": "Royal Caribbean Cruises Ltd.",
+    "ticker": "RCL",
+    "industry": "Hotels, Resorts and Cruise Lines",
+    "category": "Catering And tourism",
+    "entity_name": "Royal Caribbean Cruises"
+  },
+  {
+    "name": "S&P Global Inc.",
+    "ticker": "SPGI",
+    "industry": "Financial Exchanges and Data",
+    "category": "Finance",
+    "entity_name": "S&P Global"
+  },
+  {
+    "name": "salesforce.com, inc.",
+    "ticker": "CRM",
+    "industry": "Application Software",
+    "category": "Media and information services",
+    "entity_name": "salesforce.com"
+  },
+  {
+    "name": "SBA Communications Corporation (REIT)",
+    "ticker": "SBAC",
+    "industry": "Specialized REITs",
+    "category": "Finance",
+    "entity_name": "SBA"
+  },
+  {
+    "name": "Schlumberger Limited",
+    "ticker": "SLB",
+    "industry": "Oil and Gas Equipment and Services",
+    "category": "Energy industry",
+    "entity_name": "Schlumberger"
+  },
+  {
+    "name": "Seagate Technology plc",
+    "ticker": "STX",
+    "industry": "Technology Hardware, Storage and Peripherals",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Seagate"
+  },
+  {
+    "name": "Sealed Air Corporation",
+    "ticker": "SEE",
+    "industry": "Paper Packaging",
+    "category": "Corporate services and paper industry",
+    "entity_name": "Sealed Air"
+  },
+  {
+    "name": "Sempra Energy",
+    "ticker": "SRE",
+    "industry": "Multi-Utilities",
+    "category": "Public utilities",
+    "entity_name": "Sempra Energy"
+  },
+  {
+    "name": "ServiceNow, Inc.",
+    "ticker": "NOW",
+    "industry": "Systems Software",
+    "category": "Media and information services",
+    "entity_name": "ServiceNow"
+  },
+  {
+    "name": "Simon Property Group, Inc.",
+    "ticker": "SPG",
+    "industry": "Retail REITs",
+    "category": "Finance",
+    "entity_name": "Simon Property Group"
+  },
+  {
+    "name": "Skyworks Solutions, Inc.",
+    "ticker": "SWKS",
+    "industry": "Semiconductors",
+    "category": "Media and information services",
+    "entity_name": "Skyworks Solutions"
+  },
+  {
+    "name": "SL Green Realty Corp.",
+    "ticker": "SLG",
+    "industry": "Office REITs",
+    "category": "Finance",
+    "entity_name": "SL Green Realty"
+  },
+  {
+    "name": "Snap-on Incorporated",
+    "ticker": "SNA",
+    "industry": "Industrial Machinery",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Snap-on"
+  },
+  {
+    "name": "Southwest Airlines Co.",
+    "ticker": "LUV",
+    "industry": "Airlines",
+    "category": "Transport services",
+    "entity_name": "Southwest Airlines"
+  },
+  {
+    "name": "Stanley Black & Decker, Inc.",
+    "ticker": "SWK",
+    "industry": "Industrial Machinery",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Stanley Black & Decker"
+  },
+  {
+    "name": "Starbucks Corporation",
+    "ticker": "SBUX",
+    "industry": "Restaurants",
+    "category": "Catering And tourism",
+    "entity_name": "Starbucks"
+  },
+  {
+    "name": "State Street Corporation",
+    "ticker": "STT",
+    "industry": "Asset Management and Custody Banks",
+    "category": "Finance",
+    "entity_name": "State Street"
+  },
+  {
+    "name": "STERIS plc",
+    "ticker": "STE",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "STERIS"
+  },
+  {
+    "name": "Stryker Corporation",
+    "ticker": "SYK",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "Stryker"
+  },
+  {
+    "name": "SVB Financial Group",
+    "ticker": "SIVB",
+    "industry": "Regional Banks",
+    "category": "Finance",
+    "entity_name": "SVB"
+  },
+  {
+    "name": "Synchrony Financial",
+    "ticker": "SYF",
+    "industry": "Consumer Finance",
+    "category": "Finance",
+    "entity_name": "Synchrony Financial"
+  },
+  {
+    "name": "Synopsys, Inc.",
+    "ticker": "SNPS",
+    "industry": "Application Software",
+    "category": "Media and information services",
+    "entity_name": "Synopsys"
+  },
+  {
+    "name": "Sysco Corporation",
+    "ticker": "SYY",
+    "industry": "Food Distributors",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Sysco"
+  },
+  {
+    "name": "T. Rowe Price Group, Inc.",
+    "ticker": "TROW",
+    "industry": "Asset Management and Custody Banks",
+    "category": "Finance",
+    "entity_name": "T. Rowe Price Group"
+  },
+  {
+    "name": "Take-Two Interactive Software, Inc.",
+    "ticker": "TTWO",
+    "industry": "Interactive Home Entertainment",
+    "category": "Media and information services",
+    "entity_name": "Take-Two Interactive Software"
+  },
+  {
+    "name": "Tapestry, Inc.",
+    "ticker": "TPR",
+    "industry": "Apparel, Accessories and Luxury Goods",
+    "category": "Consumer goods industry",
+    "entity_name": "Tapestry"
+  },
+  {
+    "name": "Target Corporation",
+    "ticker": "TGT",
+    "industry": "General Merchandise Stores",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Target Corporation"
+  },
+  {
+    "name": "TE Connectivity Ltd.",
+    "ticker": "TEL",
+    "industry": "Electronic Manufacturing Services",
+    "category": "Media and information services",
+    "entity_name": "TE Connectivity"
+  },
+  {
+    "name": "TechnipFMC plc",
+    "ticker": "FTI",
+    "industry": "Oil and Gas Equipment and Services",
+    "category": "Energy industry",
+    "entity_name": "TechnipFMC"
+  },
+  {
+    "name": "Teledyne Technologies Incorporated",
+    "ticker": "TDY",
+    "industry": "Aerospace and Defense",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Teledyne Technologies"
+  },
+  {
+    "name": "Teleflex Incorporated",
+    "ticker": "TFX",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "Teleflex"
+  },
+  {
+    "name": "Texas Instruments Incorporated",
+    "ticker": "TXN",
+    "industry": "Semiconductors",
+    "category": "Media and information services",
+    "entity_name": "Texas Instruments"
+  },
+  {
+    "name": "Textron Inc.",
+    "ticker": "TXT",
+    "industry": "Aerospace and Defense",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Textron"
+  },
+  {
+    "name": "The AES Corporation",
+    "ticker": "AES",
+    "industry": "Independent Power Producers and Energy Traders",
+    "category": "Energy industry",
+    "entity_name": "The AES Corporation"
+  },
+  {
+    "name": "The Allstate Corporation",
+    "ticker": "ALL",
+    "industry": "Property and Casualty Insurance",
+    "category": "Finance",
+    "entity_name": "The Allstate"
+  },
+  {
+    "name": "The Bank of New York Mellon Corporation",
+    "ticker": "BK",
+    "industry": "Asset Management and Custody Banks",
+    "category": "Finance",
+    "entity_name": "The Bank of New York Mellon"
+  },
+  {
+    "name": "The Boeing Company",
+    "ticker": "BA",
+    "industry": "Aerospace and Defense",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Boeing"
+  },
+  {
+    "name": "The Charles Schwab Corporation",
+    "ticker": "SCHW",
+    "industry": "Investment Banking and Brokerage",
+    "category": "Finance",
+    "entity_name": "Charles Schwab"
+  },
+  {
+    "name": "The Clorox Company",
+    "ticker": "CLX",
+    "industry": "Household Products",
+    "category": "Consumer goods industry",
+    "entity_name": "Clorox"
+  },
+  {
+    "name": "The Coca-Cola Company",
+    "ticker": "KO",
+    "industry": "Soft Drinks",
+    "category": "Consumer goods industry",
+    "entity_name": "Coca-Cola"
+  },
+  {
+    "name": "The Cooper Companies, Inc.",
+    "ticker": "COO",
+    "industry": "Health Care Supplies",
+    "category": "Healthcare and health industry",
+    "entity_name": "Cooper Companies"
+  },
+  {
+    "name": "The Est\u00e9e Lauder Companies Inc.",
+    "ticker": "EL",
+    "industry": "Personal Products",
+    "category": "Consumer goods industry",
+    "entity_name": "Est\u00e9e Lauder"
+  },
+  {
+    "name": "The Gap, Inc.",
+    "ticker": "GPS",
+    "industry": "Apparel Retail",
+    "category": "Consumer goods industry",
+    "entity_name": "The Gap"
+  },
+  {
+    "name": "The Goldman Sachs Group, Inc.",
+    "ticker": "GS",
+    "industry": "Investment Banking and Brokerage",
+    "category": "Finance",
+    "entity_name": "Goldman Sachs Group"
+  },
+  {
+    "name": "The Hartford Financial Services Group, Inc.",
+    "ticker": "HIG",
+    "industry": "Multi-line Insurance",
+    "category": "Finance",
+    "entity_name": "Hartford Financial Services Group"
+  },
+  {
+    "name": "The Hershey Company",
+    "ticker": "HSY",
+    "industry": "Packaged Foods and Meats",
+    "category": "Consumer goods industry",
+    "entity_name": "Hershey"
+  },
+  {
+    "name": "The Home Depot, Inc.",
+    "ticker": "HD",
+    "industry": "Home Improvement Retail",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Home Depot"
+  },
+  {
+    "name": "The Interpublic Group of Companies, Inc.",
+    "ticker": "IPG",
+    "industry": "Advertising",
+    "category": "Media and information services",
+    "entity_name": "Interpublic Group of Companies"
+  },
+  {
+    "name": "The J. M. Smucker Company",
+    "ticker": "SJM",
+    "industry": "Packaged Foods and Meats",
+    "category": "Consumer goods industry",
+    "entity_name": "J. M. Smucker"
+  },
+  {
+    "name": "The Kraft Heinz Company",
+    "ticker": "KHC",
+    "industry": "Packaged Foods and Meats",
+    "category": "Consumer goods industry",
+    "entity_name": "Kraft Heinz"
+  },
+  {
+    "name": "The Kroger Co.",
+    "ticker": "KR",
+    "industry": "Food Retail",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Kroger"
+  },
+  {
+    "name": "The Mosaic Company",
+    "ticker": "MOS",
+    "industry": "Fertilizers and Agricultural Chemicals",
+    "category": "Chemical industry",
+    "entity_name": "Mosaic Company"
+  },
+  {
+    "name": "The PNC Financial Services Group, Inc.",
+    "ticker": "PNC",
+    "industry": "Regional Banks",
+    "category": "Finance",
+    "entity_name": "PNC Financial Services Group"
+  },
+  {
+    "name": "The Procter & Gamble Company",
+    "ticker": "PG",
+    "industry": "Household Products",
+    "category": "Consumer goods industry",
+    "entity_name": "Procter & Gamble"
+  },
+  {
+    "name": "The Progressive Corporation",
+    "ticker": "PGR",
+    "industry": "Property and Casualty Insurance",
+    "category": "Finance",
+    "entity_name": "Progressive Corporation"
+  },
+  {
+    "name": "The Sherwin-Williams Company",
+    "ticker": "SHW",
+    "industry": "Specialty Chemicals",
+    "category": "Chemical industry",
+    "entity_name": "Sherwin-Williams"
+  },
+  {
+    "name": "The Southern Company",
+    "ticker": "SO",
+    "industry": "Electric Utilities",
+    "category": "Public utilities",
+    "entity_name": "The Southern Company"
+  },
+  {
+    "name": "The TJX Companies, Inc.",
+    "ticker": "TJX",
+    "industry": "Apparel Retail",
+    "category": "Consumer goods industry",
+    "entity_name": "The TJX Companies"
+  },
+  {
+    "name": "The Travelers Companies, Inc.",
+    "ticker": "TRV",
+    "industry": "Property and Casualty Insurance",
+    "category": "Finance",
+    "entity_name": "The Travelers Companies"
+  },
+  {
+    "name": "The Walt Disney Company",
+    "ticker": "DIS",
+    "industry": "Movies and Entertainment",
+    "category": "Media and information services",
+    "entity_name": "Disney"
+  },
+  {
+    "name": "The Western Union Company",
+    "ticker": "WU",
+    "industry": "Data Processing and Outsourced Services",
+    "category": "Media and information services",
+    "entity_name": "Western Union"
+  },
+  {
+    "name": "The Williams Companies, Inc.",
+    "ticker": "WMB",
+    "industry": "Oil and Gas Storage and Transportation",
+    "category": "Energy industry",
+    "entity_name": "Williams Companies"
+  },
+  {
+    "name": "Thermo Fisher Scientific Inc.",
+    "ticker": "TMO",
+    "industry": "Life Sciences Tools and Services",
+    "category": "Healthcare and health industry",
+    "entity_name": "Thermo Fisher Scientific"
+  },
+  {
+    "name": "Tiffany & Co.",
+    "ticker": "TIF",
+    "industry": "Specialty Stores",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Tiffany & Co."
+  },
+  {
+    "name": "T-Mobile US, Inc.",
+    "ticker": "TMUS",
+    "industry": "Wireless Telecommunication Services",
+    "category": "Media and information services",
+    "entity_name": "T-Mobile US"
+  },
+  {
+    "name": "Tractor Supply Company",
+    "ticker": "TSCO",
+    "industry": "Specialty Stores",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Tractor Supply"
+  },
+  {
+    "name": "Trane Technologies plc",
+    "ticker": "TT",
+    "industry": "Building Products",
+    "category": "Building materials and real estate industry",
+    "entity_name": "Trane Technologies"
+  },
+  {
+    "name": "TransDigm Group Incorporated",
+    "ticker": "TDG",
+    "industry": "Aerospace and Defense",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "TransDigm Group"
+  },
+  {
+    "name": "Truist Financial Corporation",
+    "ticker": "TFC",
+    "industry": "Regional Banks",
+    "category": "Finance",
+    "entity_name": "Truist Financial"
+  },
+  {
+    "name": "Twitter, Inc.",
+    "ticker": "TWTR",
+    "industry": "Interactive Media and Services",
+    "category": "Media and information services",
+    "entity_name": "Twitter"
+  },
+  {
+    "name": "Tyler Technologies, Inc.",
+    "ticker": "TYL",
+    "industry": "Application Software",
+    "category": "Media and information services",
+    "entity_name": "Tyler Technologies"
+  },
+  {
+    "name": "Tyson Foods, Inc.",
+    "ticker": "TSN",
+    "industry": "Packaged Foods and Meats",
+    "category": "Consumer goods industry",
+    "entity_name": "Tyson Foods"
+  },
+  {
+    "name": "U.S. Bancorp",
+    "ticker": "USB",
+    "industry": "Diversified Banks",
+    "category": "Finance",
+    "entity_name": "U.S. Bancorp"
+  },
+  {
+    "name": "UDR, Inc.",
+    "ticker": "UDR",
+    "industry": "Residential REITs",
+    "category": "Finance",
+    "entity_name": "UDR"
+  },
+  {
+    "name": "Ulta Beauty, Inc.",
+    "ticker": "ULTA",
+    "industry": "Specialty Stores",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Ulta Beauty"
+  },
+  {
+    "name": "Under Armour, Inc.",
+    "ticker": "UA",
+    "industry": "Apparel, Accessories and Luxury Goods",
+    "category": "Consumer goods industry",
+    "entity_name": "Under Armour"
+  },
+  {
+    "name": "Under Armour, Inc.",
+    "ticker": "UAA",
+    "industry": "Apparel, Accessories and Luxury Goods",
+    "category": "Consumer goods industry",
+    "entity_name": "Under Armour"
+  },
+  {
+    "name": "Union Pacific Corporation",
+    "ticker": "UNP",
+    "industry": "Railroads",
+    "category": "Transport services",
+    "entity_name": "Union Pacific"
+  },
+  {
+    "name": "United Airlines Holdings, Inc.",
+    "ticker": "UAL",
+    "industry": "Airlines",
+    "category": "Transport services",
+    "entity_name": "United Airlines Holdings"
+  },
+  {
+    "name": "United Parcel Service, Inc.",
+    "ticker": "UPS",
+    "industry": "Air Freight and Logistics",
+    "category": "Transport services",
+    "entity_name": "United Parcel Service"
+  },
+  {
+    "name": "United Rentals, Inc.",
+    "ticker": "URI",
+    "industry": "Trading Companies and Distributors",
+    "category": "Wholesale and retail industry",
+    "entity_name": "United Rentals"
+  },
+  {
+    "name": "UnitedHealth Group Incorporated",
+    "ticker": "UNH",
+    "industry": "Managed Health Care",
+    "category": "Healthcare and health industry",
+    "entity_name": "UnitedHealth Group"
+  },
+  {
+    "name": "Universal Health Services, Inc.",
+    "ticker": "UHS",
+    "industry": "Health Care Facilities",
+    "category": "Healthcare and health industry",
+    "entity_name": "Universal Health Services"
+  },
+  {
+    "name": "Unum Group",
+    "ticker": "UNM",
+    "industry": "Life and Health Insurance",
+    "category": "Finance",
+    "entity_name": "Unum Group"
+  },
+  {
+    "name": "V.F. Corporation",
+    "ticker": "VFC",
+    "industry": "Apparel, Accessories and Luxury Goods",
+    "category": "Consumer goods industry",
+    "entity_name": "V.F. Corporation"
+  },
+  {
+    "name": "Valero Energy Corporation",
+    "ticker": "VLO",
+    "industry": "Oil and Gas Refining and Marketing",
+    "category": "Energy industry",
+    "entity_name": "Valero Energy"
+  },
+  {
+    "name": "Varian Medical Systems, Inc.",
+    "ticker": "VAR",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "Varian Medical Systems"
+  },
+  {
+    "name": "Ventas, Inc.",
+    "ticker": "VTR",
+    "industry": "Health Care REITs",
+    "category": "Finance",
+    "entity_name": "Ventas"
+  },
+  {
+    "name": "VeriSign, Inc.",
+    "ticker": "VRSN",
+    "industry": "Internet Services and Infrastructure",
+    "category": "Media and information services",
+    "entity_name": "VeriSign"
+  },
+  {
+    "name": "Verisk Analytics, Inc.",
+    "ticker": "VRSK",
+    "industry": "Research and Consulting Services",
+    "category": "Corporate services and paper industry",
+    "entity_name": "Verisk Analytics"
+  },
+  {
+    "name": "Verizon Communications Inc.",
+    "ticker": "VZ",
+    "industry": "Integrated Telecommunication Services",
+    "category": "Media and information services",
+    "entity_name": "Verizon Communications"
+  },
+  {
+    "name": "Vertex Pharmaceuticals Incorporated",
+    "ticker": "VRTX",
+    "industry": "Biotechnology",
+    "category": "Healthcare and health industry",
+    "entity_name": "Vertex Pharmaceuticals"
+  },
+  {
+    "name": "ViacomCBS Inc.",
+    "ticker": "VIAC",
+    "industry": "Broadcasting",
+    "category": "Media and information services",
+    "entity_name": "ViacomCBS"
+  },
+  {
+    "name": "Visa Inc.",
+    "ticker": "V",
+    "industry": "Data Processing and Outsourced Services",
+    "category": "Media and information services",
+    "entity_name": "Visa"
+  },
+  {
+    "name": "Vornado Realty Trust",
+    "ticker": "VNO",
+    "industry": "Office REITs",
+    "category": "Finance",
+    "entity_name": "Vornado Realty Trust"
+  },
+  {
+    "name": "Vulcan Materials Company",
+    "ticker": "VMC",
+    "industry": "Construction Materials",
+    "category": "Building materials and real estate industry",
+    "entity_name": "Vulcan Materials"
+  },
+  {
+    "name": "W. R. Berkley Corporation",
+    "ticker": "WRB",
+    "industry": "Property and Casualty Insurance",
+    "category": "Finance",
+    "entity_name": "W. R. Berkley"
+  },
+  {
+    "name": "W.W. Grainger, Inc.",
+    "ticker": "GWW",
+    "industry": "Trading Companies and Distributors",
+    "category": "Wholesale and retail industry",
+    "entity_name": "W.W. Grainger"
+  },
+  {
+    "name": "Wabtec Corporation",
+    "ticker": "WAB",
+    "industry": "Construction Machinery and Heavy Trucks",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Wabtec"
+  },
+  {
+    "name": "Walgreens Boots Alliance, Inc.",
+    "ticker": "WBA",
+    "industry": "Drug Retail",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Walgreens Boots Alliance"
+  },
+  {
+    "name": "Walmart Inc.",
+    "ticker": "WMT",
+    "industry": "Hypermarkets and Super Centers",
+    "category": "Wholesale and retail industry",
+    "entity_name": "Walmart"
+  },
+  {
+    "name": "Waste Management, Inc.",
+    "ticker": "WM",
+    "industry": "Environmental and Facilities Services",
+    "category": "Public utilities",
+    "entity_name": "Waste Management"
+  },
+  {
+    "name": "Waters Corporation",
+    "ticker": "WAT",
+    "industry": "Life Sciences Tools and Services",
+    "category": "Healthcare and health industry",
+    "entity_name": "Waters Corporation"
+  },
+  {
+    "name": "WEC Energy Group, Inc.",
+    "ticker": "WEC",
+    "industry": "Multi-Utilities",
+    "category": "Public utilities",
+    "entity_name": "WEC Energy Group"
+  },
+  {
+    "name": "Wells Fargo & Company",
+    "ticker": "WFC",
+    "industry": "Diversified Banks",
+    "category": "Finance",
+    "entity_name": "Wells Fargo & Company"
+  },
+  {
+    "name": "Welltower Inc.",
+    "ticker": "WELL",
+    "industry": "Health Care REITs",
+    "category": "Finance",
+    "entity_name": "Welltower Inc."
+  },
+  {
+    "name": "West Pharmaceutical Services, Inc.",
+    "ticker": "WST",
+    "industry": "Health Care Supplies",
+    "category": "Healthcare and health industry",
+    "entity_name": "West Pharmaceutical Services"
+  },
+  {
+    "name": "Western Digital Corporation",
+    "ticker": "WDC",
+    "industry": "Technology Hardware, Storage and Peripherals",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Western Digital"
+  },
+  {
+    "name": "WestRock Company",
+    "ticker": "WRK",
+    "industry": "Paper Packaging",
+    "category": "Corporate services and paper industry",
+    "entity_name": "WestRock"
+  },
+  {
+    "name": "Weyerhaeuser Company",
+    "ticker": "WY",
+    "industry": "Specialized REITs",
+    "category": "Finance",
+    "entity_name": "Weyerhaeuser"
+  },
+  {
+    "name": "Whirlpool Corporation",
+    "ticker": "WHR",
+    "industry": "Household Appliances",
+    "category": "Consumer goods industry",
+    "entity_name": "Whirlpool"
+  },
+  {
+    "name": "Willis Towers Watson Public Limited Company",
+    "ticker": "WLTW",
+    "industry": "Insurance Brokers",
+    "category": "Finance",
+    "entity_name": "Willis Towers Watson"
+  },
+  {
+    "name": "Wynn Resorts, Limited",
+    "ticker": "WYNN",
+    "industry": "Casinos and Gaming",
+    "category": "Media and information services",
+    "entity_name": "Wynn Resorts"
+  },
+  {
+    "name": "Xcel Energy Inc.",
+    "ticker": "XEL",
+    "industry": "Electric Utilities",
+    "category": "Public utilities",
+    "entity_name": "Xcel Energy"
+  },
+  {
+    "name": "Xerox Holdings Corporation",
+    "ticker": "XRX",
+    "industry": "Technology Hardware, Storage and Peripherals",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Xerox Holdings"
+  },
+  {
+    "name": "Xilinx, Inc.",
+    "ticker": "XLNX",
+    "industry": "Semiconductors",
+    "category": "Media and information services",
+    "entity_name": "Xilinx"
+  },
+  {
+    "name": "Xylem Inc.",
+    "ticker": "XYL",
+    "industry": "Industrial Machinery",
+    "category": "Mechanical equipment and military industry",
+    "entity_name": "Xylem"
+  },
+  {
+    "name": "Yum! Brands, Inc.",
+    "ticker": "YUM",
+    "industry": "Restaurants",
+    "category": "Catering And tourism",
+    "entity_name": "Yum! Brands"
+  },
+  {
+    "name": "Zebra Technologies Corporation",
+    "ticker": "ZBRA",
+    "industry": "Electronic Equipment and Instruments",
+    "category": "Media and information services",
+    "entity_name": "Zebra Technologies"
+  },
+  {
+    "name": "Zimmer Biomet Holdings, Inc.",
+    "ticker": "ZBH",
+    "industry": "Health Care Equipment",
+    "category": "Healthcare and health industry",
+    "entity_name": "Zimmer Biomet Holdings"
+  },
+  {
+    "name": "Zions Bancorporation, National Association",
+    "ticker": "ZION",
+    "industry": "Regional Banks",
+    "category": "Finance",
+    "entity_name": "Zions Bancorporation, National Association"
+  },
+  {
+    "name": "Zoetis Inc.",
+    "ticker": "ZTS",
+    "industry": "Pharmaceuticals",
+    "category": "Healthcare and health industry",
+    "entity_name": "Zoetis"
+  }
+]
